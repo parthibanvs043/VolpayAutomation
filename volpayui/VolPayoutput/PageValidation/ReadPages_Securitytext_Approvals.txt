@@ -1,0 +1,22 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Approvals
+Reports
+Security Approvals
+0
+admin
+Approvals
+View Approvals, Edit Approvals Details
+0 out of 0 records shown
+No Records Found
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,82 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Action Definition Add New
+0
+admin
+Onboarding New Action Definition
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Action Name*
+Work Flow Code*
+Select
+WORK FLOW FOR PAYMENT PROCESSING
+WORK FLOW FOR INSTRUCTION PROCESSING
+CONFIRMATION INSTRUCTION PROCESSING
+CONFIRMATION TRANSACTION PROCESSING
+RFP INSTRUCTION PROCESSING
+RFP Transaction
+LoadMore
+Select
+Description
+Function Name
+Rest URL
+Rest Method
+Select
+GET
+POST
+PUT
+Success URL
+Failure URL
+Flow Name
+Additional Config
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Dual Control Required
+Yes
+No
+Mandate Note
+Yes
+No
+Group Action Allowed
+Yes
+No
+Alias Name
+Client Alias Name
+Add Action Definition Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

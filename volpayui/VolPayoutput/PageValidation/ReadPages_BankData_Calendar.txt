@@ -1,0 +1,71 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data Calendar
+0
+admin
+Calendar
+View Calendar, Edit Calendar Details
+12 out of 12 records shown
+Clear Cache
+
+Add Calendar
+Spain Calendar - ESPCAL
+Effective From Date :
+2016-01-01
+United States Calendar - USCAL
+Effective From Date :
+2016-01-01
+United Kingdom Calendar - UKCAL
+Effective From Date :
+2016-01-01
+Australian Calendar - AUCAL
+Effective From Date :
+2016-01-01
+Indian Calendar - INCAL
+Effective From Date :
+2016-01-01
+Global Calendar - GLCAL
+Effective From Date :
+2016-01-01
+GLOBAL - GBLCAL
+Effective From Date :
+2016-01-01
+Germany Calendar - DECAL
+Effective From Date :
+2016-01-01
+Canada Calendar - CACAL
+Effective From Date :
+2016-01-01
+England Calendar - GBCAL
+Effective From Date :
+2016-01-01
+NewZealand Calendar - NZCAL
+Effective From Date :
+2016-01-01
+DEMOCAL - CA001
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,32 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Report
+Reports Report Generate
+0
+admin
+Report Generate
+Report Name *
+--Select--
+Payment Completion Report
+Todays All Instruction Report
+Todays All Payment Report
+Week Instruction Report
+Week Payment Report
+Output Format
+Generate Report    
+
+
+Reports - records shown
+No Records Found
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

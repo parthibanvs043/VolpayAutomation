@@ -1,0 +1,124 @@
+Home
+My Profile
+Alerts & Notifications
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Home My Profile
+0
+admin
+My Profile
+View, Edit of Profile, Settings and Saved Search
+Profile Account
+admin
+
+User ID *
+Last Name *
+First Name *
+Email ID*
+Role ID *
+Is Force Reset *
+Select
+true
+false
+Status *
+ACTIVE
+INACTIVE
+Effective From Date *
+Effective Till Date
+Time Zone *
+--Select--
+Africa/Accra
+Africa/Accra
+User Role Association
+Edit
+Change Password
+Old Password*
+New Password*
+?
+Confirm Password*
+Reset Update
+Settings
+Theme
+Language
+English/Inglés
+Spanish/Español
+Default Landing Page
+My Profile
+Alerts & Notifications
+Payments Dashboard
+All Payments
+Instructions Dashboard
+Received Instructions
+All Confirmations
+Distributed Instructions
+Initiate Transaction
+File Upload
+User Management
+Roles & Permissions
+Application Config
+VolPay ID Configuration
+Approvals
+Report
+Save
+Dashboard Settings
+My Dashboard
+Customize Dashboard
+Payments Dashboard
+Instructions Dashboard
+My Dashboard
+PAYMENT STATUS SUMMARY
+Repair
+For Approval
+For Bulking
+Warehoused
+Waiting
+Hold
+PAYMENT WIDGET
+PAYMENT CHART TYPE
+Payment Currency Distribution
+Donut Chart
+Pie Chart
+Multibar Chart - Horizontal
+Multibar Chart - Vertical
+Sankey Flow chart - Horizontal
+Sankey Flow chart - Vertical
+Inbound Payment
+Donut Chart
+Pie Chart
+Multibar Chart - Horizontal
+Multibar Chart - Vertical
+Sankey Flow chart - Horizontal
+Sankey Flow chart - Vertical
+Method of Payment
+Donut Chart
+Pie Chart
+Multibar Chart - Horizontal
+Multibar Chart - Vertical
+Sankey Flow chart - Horizontal
+Sankey Flow chart - Vertical
+Payment Status
+Donut Chart
+Pie Chart
+Multibar Chart - Horizontal
+Multibar Chart - Vertical
+Sankey Flow chart - Horizontal
+Sankey Flow chart - Vertical
+Save Defaults
+Saved Search
+Received Instructions
+Distributed Instructions
+All Payments
+All Confirmations
+No saved search found
+Saved Drafts
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

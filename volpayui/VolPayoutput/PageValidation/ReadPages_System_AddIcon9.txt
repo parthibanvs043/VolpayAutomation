@@ -1,0 +1,61 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Log Configuration Add New
+0
+admin
+Onboarding New Log Configuration
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Application Name
+ALL
+VolPayHub
+VolPayChannel
+VolPayRest
+Category*
+Log Level*
+Select
+TRACE
+DEBUG
+INFO
+WARN
+ERROR
+FATAL
+OFF
+Appenders
+Select
+fileAppendar
+LoadMore
+Select
+Add Log Configuration Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,52 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Product Add New
+0
+admin
+Onboarding New Product
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Product Code*
+Product Name
+Product Description
+Product Category*
+Select
+INTERNAL
+EXTERNAL
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Add Product Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

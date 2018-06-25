@@ -1,0 +1,134 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Status Action
+0
+admin
+Status Action
+View Status Action, Edit Status Action Details
+20 out of 231 records shown
+Clear Cache
+
+Add Status Action
+TxnLevelAlertNotification - PAYMENT
+Process Status :
+REPAIR
+Effective From Date :
+2017-03-02
+SendNAK - PAYMENT
+Process Status :
+DUPLICATE
+Effective From Date :
+2017-01-01
+InstructionProcessReject - INSTRUCTION
+Process Status :
+ACCEPT-DUPLICATE-WAITFORAPPROVAL
+Effective From Date :
+2017-01-01
+Approve1 - INSTRUCTION
+Process Status :
+REJECT-DUPLICATE-WAITFORAPPROVAL
+Effective From Date :
+2017-01-01
+TxnLevelAlertNotification - CONFIRMATION_TXN
+Process Status :
+COMPLETED_WITH_AMENDMENT
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - CONFIRMATION_TXN
+Process Status :
+RETURNED
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - PAYMENT
+Process Status :
+WAREHOUSED
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - PAYMENT
+Process Status :
+TOBEPROCESSED
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - CONFIRMATION_TXN
+Process Status :
+ACCEPTED
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - PAYMENT
+Process Status :
+COMPLETED
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - PAYMENT
+Process Status :
+FOR_BULKING
+Effective From Date :
+2017-03-02
+TxnLevelAlertNotification - PAYMENT
+Process Status :
+REJECTED
+Effective From Date :
+2017-03-02
+PaymentConfirmation - PAYMENT
+Process Status :
+DELIVERED
+Effective From Date :
+2017-01-01
+GenerateROF - PAYMENT
+Process Status :
+ACCEPTED
+Effective From Date :
+2017-01-01
+GenerateRFI - PAYMENT
+Process Status :
+ACCEPTED
+Effective From Date :
+2017-01-01
+GenerateRRFI - PAYMENT
+Process Status :
+ACCEPTED
+Effective From Date :
+2017-01-01
+SendNAKForAttchMsg - ATTCHMSG_TXN
+Process Status :
+DUPLICATE
+Effective From Date :
+2017-01-01
+GenerateRROF - PAYMENT
+Process Status :
+ACCEPTED
+Effective From Date :
+2017-01-01
+PaymentConfirmation - PAYMENT
+Process Status :
+COMPLETED
+Effective From Date :
+2017-01-01
+PaymentConfirmation - PAYMENT
+Process Status :
+ACCEPTED
+Effective From Date :
+2017-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

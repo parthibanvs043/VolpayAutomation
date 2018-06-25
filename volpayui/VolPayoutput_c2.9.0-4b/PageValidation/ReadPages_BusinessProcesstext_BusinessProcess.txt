@@ -1,0 +1,54 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Business Process
+0
+admin
+Business Process
+View Business Process, Edit Business Process Details
+20 out of 103 records shown
+Clear Cache
+Process Code Work Flow Code Function Code Activity Index Business Rule Handler Flow Status Effective From Date Effective Till Date
+CAMT-DEFAULT ATTCHMSG_TXN DupCheckForAttachMsg 40 2017-11-01
+CAMT-DEFAULT ATTCHMSG_TXN TransmitAttachedMessage 50 2016-01-01
+CAMT-DEFAULT INSTRUCTION ValidateAndDebulkProcessor 10 2016-01-01
+CAMT-DEFAULT INSTRUCTION SendSelectedAttchMsgToTxProcess 20 2016-01-01
+INCOMINGRFI-DEFAULT ATTCHMSG_TXN DupCheckForAttachMsg 40 2017-11-01
+INCOMINGRFI-DEFAULT ATTCHMSG_TXN TransmitAttachedMessage 50 2016-01-01
+INCOMINGRFI-DEFAULT INSTRUCTION ValidateAndDebulkProcessor 10 2016-01-01
+INCOMINGRFI-DEFAULT INSTRUCTION SendSelectedAttchMsgToTxProcess 20 2016-01-01
+INCOMINGRFP-DEFAULT INSTRUCTION ValidateAndDebulkProcessor-RFP 10 2016-12-30
+INCOMINGRFP-DEFAULT INSTRUCTION CheckThresholds-RFP 20 2016-12-30
+INCOMINGRFP-DEFAULT PAYMENT PCDEnrichment 25 2017-10-12
+INCOMINGRFP-DEFAULT RFP_TXN ExecutePaymentDuplicateCheck-RFP 10 2016-12-30
+INCOMINGRFP-DEFAULT RFP_TXN DebtorAcctIdentifyAndValidate-RFP 20 2016-12-30
+INCOMINGRFP-DEFAULT RFP_TXN CreditPartyDerivation-RFP 22 2017-01-01
+INCOMINGRFP-DEFAULT RFP_TXN ProductSelection-RFP 23 2017-01-01
+INCOMINGRFP-DEFAULT RFP_TXN MOPDerivation-RFP 24 2017-01-01
+INCOMINGRFP-DEFAULT RFP_TXN CheckMandate-RFP 30 2016-12-30
+INCOMINGROF-DEFAULT ATTCHMSG_TXN HandleTimeOutForROF 10 2017-01-01
+INCOMINGROF-DEFAULT ATTCHMSG_TXN DupCheckForAttachMsg 40 2017-11-01
+INCOMINGROF-DEFAULT ATTCHMSG_TXN TransmitAttachedMessage 50 2016-01-01
+
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

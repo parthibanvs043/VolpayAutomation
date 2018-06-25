@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterfaceOverride>
+	<Submit>(//button[@type='submit'])[2]</Submit>
+	<Cancel>//button[@type='reset']</Cancel>
+<Override>
+		<GroupStatusReason>Group Status Reason</GroupStatusReason>				// dropdown ID
+		<GroupStatusReasonInformation>Group Status Reason Information</GroupStatusReasonInformation>					//Textarea ID
+		<Owner>Owner</Owner>																//input ID
+		<StatusReason>Status Reason</StatusReason>									// dropdown ID											
+		<NumberOfHits>Number Of Hits</NumberOfHits>														//input ID
+		<HitCategory>Hit Category</HitCategory>											//input ID
+		<OriginalStatusReason>Original Status Reason</OriginalStatusReason>						//input ID
+		<StatusInformation>Status Information</StatusInformation>										//Textarea ID
+</Override>
+</InterfaceOverride>

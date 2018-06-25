@@ -1,0 +1,34 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Bulk Profile
+0
+admin
+Bulk Profile
+View Bulk Profile, Edit Bulk Profile Details
+1 out of 1 records shown
+Clear Cache
+Bulk Profile Code Max Payments Per Bulk Message Bulk Frequency Bulking Start Time Bulking End Time Bulk Trigger Count Perform Bulking at Mop CutOff Time Status Effective From Date Effective Till Date
+GENERICBULKPROFILE 10 1 00:01:01 23:59:59 10 false 2016-01-01
+
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

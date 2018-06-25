@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemData>
+       <SystemDataModule>System Data</SystemDataModule>
+       <Submit>button[tooltip='Submit']</Submit>
+	   <statusBox>statusBox</statusBox>
+	   <ChangesModule>.//*[@id='changesLostModal']/div/div</ChangesModule>
+<GridView>
+        <View>btn_2</View>      
+        <AddNewButton>button[tooltip='Add New']</AddNewButton>
+</GridView>
+<TextValues>
+        <AddNewText>//h2[@class='ng-binding']</AddNewText>    
+</TextValues>
+<Links>
+        <ApplicationConfigLink>Application Config</ApplicationConfigLink>
+        <VolPayIDConfigurationLink>VolPay ID Configuration</VolPayIDConfigurationLink>
+        <ActionDefinitionLink>Action Definition</ActionDefinitionLink>
+		<StatusDefinitionLink>Status Definition</StatusDefinitionLink>
+		<IncidenceDefinitionLink>Incidence Definition</IncidenceDefinitionLink>
+		<StatusActionLink>Status Action</StatusActionLink>
+		<LogConfigurationLink>Log Configuration</LogConfigurationLink>
+		<ApprovalConditionLink>Approval Condition</ApprovalConditionLink>	
+</Links>
+<ApplicationConfig>
+		<Name>input[ng-model='newData.Name']</Name>
+		<Value>textarea[name=Value]</Value>
+		<Type>input[ng-model='newData.Type']</Type>
+</ApplicationConfig>
+<VolPayIDConfiguration>
+		<IDCode>input[ng-model='TaskDetailsCreate.IDCode']</IDCode>
+		<Pattern >input[ng-model='TaskDetailsCreate.Pattern']</Pattern >
+		<MinimumLength>input[ng-model='TaskDetailsCreate.MinLen']</MinimumLength>
+		<MaximumLength>input[ng-model='TaskDetailsCreate.MaxLen']</MaximumLength>
+		<FixLength>input[ng-model='TaskDetailsCreate.FixLen']</FixLength>
+		<FlowName>input[ng-model='TaskDetailsCreate.FlowName']</FlowName>
+		<IsDefault>select[ng-model='TaskDetailsCreate.IsDefault']</IsDefault>
+</VolPayIDConfiguration>
+<ActionDefinition>
+		<ActionName>Action Name</ActionName>
+		<WorkFlowCode>span[id='select2-Work Flow Code-container']</WorkFlowCode>
+		<Description>Description</Description>
+		<FunctionName>Function Name</FunctionName>
+		<RestURL>Rest URL</RestURL>
+		<RestMethod>select[id='Rest Method']</RestMethod>
+		<SuccessURL>Success URL</SuccessURL>
+		<FailureURL>Failure URL</FailureURL>
+		<FlowName>Flow Name</FlowName>
+		<AdditionalConfig>Additional Config</AdditionalConfig>
+		<Status>Status</Status>
+		<EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+		<EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+		<DualControlRequired>DualControlRequired</DualControlRequired>
+		<MandateNote>MandateNote</MandateNote>
+		<GroupActionAllowed>GroupActionAllowed</GroupActionAllowed>
+		<AliasName>Alias Name</AliasName>
+		<ClientAliasName>Client Alias Name</ClientAliasName>	
+</ActionDefinition>
+<StatusDefinition>
+		<ProcessStatus>Process Status</ProcessStatus>
+		<WorkFlowCode>span[id='select2-Work Flow Code-container']</WorkFlowCode>
+		<Description>Description</Description>
+		<UserControl>UserControl</UserControl>
+		<Status>Status</Status>
+		<ColourA>input[id='Colour A']</ColourA>
+		<ColourB>span[data-color='rgb(0, 0, 0)']</ColourB>
+		<Opacity>Opacity</Opacity>
+		<EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+		<EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+		<AliasName>Alias Name</AliasName>
+		<ClientAliasName>Client Alias Name</ClientAliasName>
+</StatusDefinition>
+<IncidenceDefinition>
+		<IncidenceType>select[id='Incidence Type']</IncidenceType>
+		<IncidenceCode>span[id='select2-Incidence Code-container']</IncidenceCode>
+		<ProcessName>span[id='select2-Process Name-container']</ProcessName>
+		<PartyServiceAssociationCode>span[id='select2-Party Service Association Code-container']</PartyServiceAssociationCode>
+		<WorkFlowCode>span[id='select2-Work Flow Code-container']</WorkFlowCode>
+		<Description>Description</Description>
+		<ProcessStatus>select[id='Process Status']</ProcessStatus>
+		<IncidenceResolution>Incidence Resolution</IncidenceResolution>
+		<Severity>select[id='Severity']</Severity>
+		<Status>Status</Status>
+		<EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+		<EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+		<IncidenceOrigin>Incidence Origin</IncidenceOrigin>
+		<CanClientSetPreference>CanClientSetPreference</CanClientSetPreference>
+		<OperationsSeverityPreference>Operations Severity Preference</OperationsSeverityPreference>
+		<ClientSeverityPreference>Client Severity Preference</ClientSeverityPreference>
+		<RepairandManualInput>Repair and Manual Input</RepairandManualInput>
+</IncidenceDefinition>
+<StatusAction>
+		<WorkFlowCode>span[id='select2-Work Flow Code-container']</WorkFlowCode>
+		<Action>Action</Action>
+		<ProcessStatus>//select[@id='Process Status']</ProcessStatus>
+		<ProcessName>//span[@id='select2-Process Name-container']</ProcessName>
+		<Status>Status</Status>
+		<EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+		<EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</StatusAction>
+<LogConfiguration>
+		<ApplicationName>select[id='Application Name']</ApplicationName>
+		<Category>Category_List</Category>
+		<LogLevel>select[id='Log Level']</LogLevel>
+		<Appenders>select[id='Appenders']</Appenders>
+</LogConfiguration>
+<ApprovalCondition>
+		<ApprovalCount>Approval Count</ApprovalCount>
+		<ResourceName>span[id='select2-Resource Name-container']</ResourceName>
+		<Operation>select[id='Operation']</Operation>
+		<Status>Status</Status>
+		<EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+		<EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+		<AttributeName>Attribute Name</AttributeName>
+		<Operator>Operator</Operator>
+		<Value>Value</Value>
+</ApprovalCondition>
+</SystemData>

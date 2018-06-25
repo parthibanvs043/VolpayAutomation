@@ -1,0 +1,180 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Party Service Association Add New
+0
+admin
+Onboarding New Party Service Association
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Party Service Association Code*
+Association Description
+Party Code*
+Select
+BENEFIT PAYMENTS OMNIBUS(5371302532)
+BNYM FFT(9987765543)
+CACEIS CT(5413300012)
+CROWN AGENTS BANK LTD, UK(5260330022)
+DEMO ISO PACS008 CH(9000001235)
+HSBC LDN(9565549876)
+IBM INC, USA(UC43825623480001)
+Kellogs, USA(4382562348)
+Spain default party(7765569996)
+United kingdom main party(7765569997)
+United states party(7765569998)
+United states party A(PARTYA)
+United states party A(UPARTYA)
+LoadMore
+Select
+Service Code*
+Select
+DBS Service Code
+Payment service
+Payroll service
+SWIFT service for all payments
+LoadMore
+Select
+Process Code*
+Select
+DEFAULT CONFIGURATION
+CAMT configuration
+Remit configuration
+Incoming RFI configuration
+Incoming RRFI configuration
+Incoming ROF configuration
+ROF configuration
+Incoming RROF configuration
+Incoming RFP configuration
+Incoming RRFP configuration
+Outgoing RFI configuration
+Outgoing RRFI configuration
+Outgoing ROF configuration
+Outgoing RROF configuration
+Outgoing RFP configuration
+Outgoing RRFP configuration
+LoadMore
+Select
+Products Supported*
+Automated Clearing House
+BOOK Internal Payments
+HSBC Product Code
+Incoming Payments
+Internal Payments
+LoadMore
+Branch Code
+Select
+Frankfurt Branch
+Spain Branch
+United Kingdom Branch
+LoadMore
+Select
+Derive Branch Code*
+Yes
+No
+Enforce Settlement Instruction*
+Yes
+No
+Name of Input Format*
+Select
+DEMO_ISOCAMT026
+DEMO_ISOCAMT028
+SWIFT
+DEMO_ISOCAMT029
+PaymentInstruction
+ManualConfirmation
+DEMO_ISOCAMT035CUSTOM
+DEMO_ISOCAMT056
+ISOPain_Pacs_002
+ManualRFI
+ManualRRFI
+ManualRRFP
+ManualRROF
+ManualROF
+DEMO_ISOPACS008Channel
+DEMO_ISOPACS008Clearing
+DEMO_ISOPAIN013
+DEMO_ISOREMT001
+ManualCAMT
+LoadMore
+Select
+File Duplicate Check*
+Yes
+No
+Payment Duplicate Check*
+Yes
+No
+Rejection Error Threshold*
+Referral Error Threshold*
+Permitted Account Numbers
+Select
+Preferred Account
+Select
+Payment Source Code
+On Value Date Not Being Honourable - Choose Fastest MOP
+Yes
+No
+Payment Parallel Processing*
+Yes
+No
+Additional Config
+Is Default PSA*
+Yes
+No
+Usage Mechanism*
+UI
+API
+Transport
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Response Config
+Response Required*
+Yes
+No
+Expecting Instruction level Ack
+Yes
+No
+Response Stages
+Select
+File Receipt
+File Accepted/Rejected for processing
+File Processed
+File Rejected
+Response Type
+Select
+ALL - Positive & Negative responses
+ONLY NEGATIVE - only Negative Responses
+Response Format
+Add Party Service Association Save as Draft Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

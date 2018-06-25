@@ -1,0 +1,164 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Business Function Add New
+0
+admin
+Onboarding New Business Function
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Function Code*
+Select
+OFACCheck
+DebitPartyDerivation
+CreditPartyDerivation
+ProductSelection
+MOPDerivation
+ExecutePaymentDuplicateCheck
+Warehouse
+Fx
+PrepareAccountingEntries
+FundsControl
+LiquidityControl
+AccountPosting
+TransformAndTransmit
+ValidateAndDebulkProcessor
+CheckThresholds
+OSPProductSelection
+ValidatePaymentCurrency
+InstructionDuplicateCheck
+ValidateAndDebulkResponses
+DepartmentSelection
+FundsControlReversal
+CodeHandler
+DebtorAcctIdentifyAndValidate-RFP
+ConfResponseHandlingForAMND
+ValidateAndDebulkProcessor-RFP
+CheckThresholds-RFP
+CheckMandate-RFP
+HandleResponseforRFP
+ExecutePaymentDuplicateCheck-RFP
+GenerateStatusReport-RFP
+LiquidityControlReversal
+FinalizeStatusForRJCT
+SendSelectedAttchMsgToTxProcess
+TransmitAttachedMessage
+CreditTransferMatchWithROF
+CreditPartyDerivation-RFP
+InstrConfCheck
+HandleTimeOutForROF
+CreditorAcctIdentifyAndValidate-RFP
+ProductSelection-RFP
+MOPDerivation-RFP
+TransformAndTransmit-RFP
+ConfCheckForRROF
+GeneratePaymentForRROF
+FinalizeIncomingCT
+ConfResponseHandlingForRJCT
+CreditTransferMatchWithRFP
+PCDEnrichment
+DupCheckForAttachMsg
+ProcessApproval
+INSTRDEMOIF
+ValueDateBackDated_RFP
+OSPProductEnrichmentForBook
+LoadMore
+Select
+Task Code*
+Select
+OFACCheck
+DebitPartyDerivation
+CreditPartyDerivation
+ProductSelection
+MOPDerivation
+ExecutePaymentDuplicateCheck
+Warehouse
+Fx
+PrepareAccountingEntries
+FundsControl
+LiquidityControl
+AccountPosting
+TransformAndTransmit
+ValidateAndDebulkProcessor
+CheckThresholds
+OSPProductSelection
+ValidatePaymentCurrency
+InstructionDuplicateCheck
+ValidateAndDebulkResponses
+DepartmentSelection
+FundsControlReversal
+CodeHandler
+DebtorAcctIdentifyAndValidate
+ConfResponseHandlingForAMND
+ValidateAndDebulkProcessor
+InstructionDuplicateCheck
+CheckMandate
+HandleResponseforRFP
+ExecutePaymentDuplicateCheck-RFP
+GenerateStatusReport-RFP
+LiquidityControlReversal
+FinalizeStatusForRJCT
+SendSelectedAttchMsgToTxProcess
+TransmitAttachedMessage
+CreditTransferMatchWithROF
+ConfResponseHandlingForRJCT
+LocalPartyValidation
+ProductSelection
+MOPDerivation
+TransformAndTransmit
+CreditPartyDerivation-RFP
+InstrConfCheck
+HandleTimeOutForROF
+ConfCheckForRROF
+GeneratePaymentForRROF
+FinalizeIncomingCT
+CreditTransferMatchWithRFP
+PCDEnrichment
+DupCheckForAttachMsg
+ProcessApproval
+INSTRDEMOIF
+ValueDateBackDated_RFP
+OSPProductEnrichmentForBook
+LoadMore
+Select
+Activity Index*
+Task Config
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Add Business Function Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

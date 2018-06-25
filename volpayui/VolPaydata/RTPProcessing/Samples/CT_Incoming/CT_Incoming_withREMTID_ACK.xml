@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFIPmtStsRpt>
+		<GrpHdr>
+			<MsgId>3126</MsgId>
+			<CreDtTm>2018-05-17T10:06:54.171+05:30</CreDtTm>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<ClrSysId>
+							<Cd>USABA</Cd>
+						</ClrSysId>
+						<MmbId>011001233</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<BICFI>IRVTUS3NXXX</BICFI>
+					<Nm>US Head Office Branch</Nm>
+				</FinInstnId>
+			</InstdAgt>
+		</GrpHdr>
+		<OrgnlGrpInfAndSts>
+			<OrgnlMsgId>MsgId</OrgnlMsgId>
+			<OrgnlMsgNmId>9000001235_DEMO_ISOPACS008Clearing</OrgnlMsgNmId>
+			<OrgnlCreDtTm>2015-04-27T14:25:17.892</OrgnlCreDtTm>
+			<GrpSts>ACCP</GrpSts>
+		</OrgnlGrpInfAndSts>
+		<TxInfAndSts>
+			<OrgnlInstrId>ClearingInstrId001</OrgnlInstrId>
+			<OrgnlEndToEndId>ClearingEToEID001</OrgnlEndToEndId>
+			<OrgnlTxId>TxId</OrgnlTxId>
+			<TxSts>ACTC</TxSts>
+			<InstgAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<ClrSysId>
+							<Cd>USABA</Cd>
+						</ClrSysId>
+						<MmbId>011001233</MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</InstgAgt>
+			<InstdAgt>
+				<FinInstnId>
+					<BICFI>IRVTUS3NXXX</BICFI>
+					<Nm>US Head Office Branch</Nm>
+				</FinInstnId>
+			</InstdAgt>
+			<OrgnlTxRef>
+				<IntrBkSttlmAmt Ccy="CAD">189.42</IntrBkSttlmAmt>
+				<IntrBkSttlmDt>2018-05-15</IntrBkSttlmDt>
+			</OrgnlTxRef>
+		</TxInfAndSts>
+	</FIToFIPmtStsRpt>
+</Document>

@@ -1,0 +1,34 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Bulk Profile Override
+0
+admin
+Bulk Profile Override
+View Bulk Profile Override, Edit Bulk Profile Override Details
+1 out of 1 records shown
+Clear Cache
+MOP Override Type Override Value Bulk Profile Status Effective From Date Effective Till Date
+TESTMOP DAY MONDAY TestProfile 2018-06-06 2019-12-31
+
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

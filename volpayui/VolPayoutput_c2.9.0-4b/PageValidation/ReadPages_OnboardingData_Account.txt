@@ -1,0 +1,91 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Account
+0
+admin
+Account
+View Account, Edit Account Details
+20 out of 42 records shown
+Clear Cache
+
+Add Account
+GB14IRVT70022533114422 - 0009005828
+Effective From Date :
+2016-01-01
+00100495
+Effective From Date :
+2016-01-01
+GB14IRVT70022533114422 - 0123456790
+Effective From Date :
+2016-01-01
+1045610107
+Effective From Date :
+2016-01-01
+GB14IRVT70022533114422 - 1045610208
+Effective From Date :
+2016-01-01
+NL55ABPT1112223334 - 11111111
+Effective From Date :
+2016-01-01
+1234567890
+Effective From Date :
+2016-01-01
+124515408
+Effective From Date :
+2016-01-01
+1245451533
+Effective From Date :
+2016-01-01
+1622162599
+Effective From Date :
+2016-01-01
+3045610128
+Effective From Date :
+2016-01-01
+3216549870
+Effective From Date :
+2016-01-01
+3216549871
+Effective From Date :
+2016-01-01
+3216549872
+Effective From Date :
+2016-01-01
+3216549873
+Effective From Date :
+2016-01-01
+3216549874
+Effective From Date :
+2016-01-01
+3216549893
+Effective From Date :
+2016-01-01
+3216549894
+Effective From Date :
+2016-01-01
+34
+Effective From Date :
+2016-01-01
+GB83IRVT70022550456101 - 5045610122
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Instruction Search" verbose="1">
+<test name="InstructionAdvancedSearch">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Modules/Search/InstructionSearch.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Modules/Search/InstructionSearch.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+</suite>

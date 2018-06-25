@@ -1,0 +1,70 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data Country Add New
+0
+admin
+Onboarding New Country
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Country Code*
+Country Name
+Region Code
+Select
+LoadMore
+Select
+Calendar Code*
+Select
+Australian Calendar
+Canada Calendar
+DEMOCAL
+England Calendar
+Germany Calendar
+GLOBAL
+Global Calendar
+Indian Calendar
+NewZealand Calendar
+Spain Calendar
+United Kingdom Calendar
+LoadMore
+Select
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Add Country Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

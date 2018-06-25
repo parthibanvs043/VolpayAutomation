@@ -1,0 +1,121 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Party Add New
+0
+admin
+Onboarding New Party
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Party Code*
+Party Name
+Party Display Name
+Parent Party Code
+Select
+BENEFIT PAYMENTS OMNIBUS(5371302532)
+BNYM FFT(9987765543)
+CACEIS CT(5413300012)
+CROWN AGENTS BANK LTD, UK(5260330022)
+DEMO ISO PACS008 CH(9000001235)
+HSBC LDN(9565549876)
+IBM INC, USA(UC43825623480001)
+Kellogs, USA(4382562348)
+Spain default party(7765569996)
+United kingdom main party(7765569997)
+United states party(7765569998)
+United states party A(PARTYA)
+United states party A(UPARTYA)
+LoadMore
+Select
+Party Type*
+Select
+Self
+Correspondent
+Customer
+Clearing House
+Underlined Customer
+Party Sub Type
+Select
+PL
+PSP
+DIRECT
+Supports Underlying Customer*
+Yes
+No
+Underlying Customer Data Available
+Yes
+No
+Party External Identifier
+Default Charges Account Number
+Default Charges Account Currency
+Processing Restrictions
+Select
+STOP DEBIT
+STOP CREDIT
+STOP PAYMENTS
+Calendar Code
+Select
+Australian Calendar
+Canada Calendar
+DBS Calendar Code
+DEMOCAL
+England Calendar
+Germany Calendar
+GLOBAL
+Global Calendar
+HSBC Calendar Code
+Indian Calendar
+NewZealand Calendar
+Spain Calendar
+United Kingdom Calendar
+LoadMore
+Select
+Cutoff Profile Code
+Select
+LoadMore
+Select
+Address Line1
+Address Line2
+City
+State
+Post Code
+Country
+Email ID
+Phone No
+Legal Entity Identifier
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Add Party Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

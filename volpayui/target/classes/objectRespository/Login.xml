@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Login>
+       <Username>username</Username>
+       <Password>password</Password>
+	   <submitbutton>//button[contains(text(),'Login')]</submitbutton>
+	   <PaymentDashBoardText>.//*[@id='container']/div[1]/div/div[1]/div/h2</PaymentDashBoardText>
+	   <UserText>//*[@class='dropdown-toggle']</UserText>
+<Logout>
+       <Username>span[class='namecls ng-binding']</Username>
+       <logoutbutton>a[ng-click='logout()']</logoutbutton>
+</Logout>
+</Login>

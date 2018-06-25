@@ -1,0 +1,95 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data FX Rates
+0
+admin
+FX Rates
+View FX Rates, Edit FX Rates Details
+20 out of 65 records shown
+Clear Cache
+
+Add FX Rates
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+1970-02-10 - GLBLOFF
+Effective From Date :
+2016-10-31
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

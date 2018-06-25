@@ -1,0 +1,89 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Party Service Association
+0
+admin
+Party Service Association
+View Party Service Association, Edit Party Service Association Details
+19 out of 19 records shown
+Clear Cache
+
+Add Party Service Association
+Show Drafts
+9000001235_DEMO_ISOPACS008Clearing
+Effective From Date :
+2016-01-01
+9000001235_DEMO_ISOPain013_RFP
+Effective From Date :
+2016-01-01
+7765569996_DEMO_ISOPACS008Channel
+Effective From Date :
+2016-01-01
+7765569996_DEMOISOPain013_RFP
+Effective From Date :
+2016-01-01
+7765569996_DEMOISOREMT001
+Effective From Date :
+2016-01-01
+7765569996_DEMO_ISOCAMT026_RFI
+Effective From Date :
+2016-01-01
+7765569996_DEMO_ISOCAMT028_RRFI
+Effective From Date :
+2016-01-01
+7765569996_DEMO_ISOCAMT056_ROF
+Effective From Date :
+2016-01-01
+7765569996_DEMO_ISOCAMT029_RROF
+Effective From Date :
+2016-01-01
+9000001235_DEMOISOREMT001
+Effective From Date :
+2016-01-01
+9000001235_DEMOISOCAMT035CUSTOM
+Effective From Date :
+2016-01-01
+9000001235_DEMO_ISOCAMT026_RFI
+Effective From Date :
+2016-01-01
+9000001235_DEMO_ISOCAMT028_RRFI
+Effective From Date :
+2016-01-01
+9000001235_DEMO_ISOCAMT056_ROF
+Effective From Date :
+2016-01-01
+9000001235_DEMO_ISOCAMT029_RROF
+Effective From Date :
+2016-01-01
+9000001235_DEMO_ISOPAIN014_RRFP
+Effective From Date :
+2016-01-01
+7765569996_DEMO_ISOPAIN014_RRFP
+Effective From Date :
+2016-01-01
+7765569998_MT103_USD
+Effective From Date :
+2016-01-01
+7765569996_DEMOISOCAMT035CUSTOM
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

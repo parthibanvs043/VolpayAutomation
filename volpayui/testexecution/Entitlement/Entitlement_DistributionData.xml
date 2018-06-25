@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DistributionData" verbose="1">
+<!-- Modules count in System Data=10 -->
+<test name="BankRouting">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_BankRouting.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_BankRouting.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test>
+<test name="CountryCorrespondent">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_CountryCorrespondent.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_CountryCorrespondent.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test>
+<test name="CurrencyCorrespondent">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_CurrencyCorrespondent.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_CurrencyCorrespondent.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="IndustryData-Swift">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_IndustryData-Swift.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/reports/Entitlement/DistributionData/Entitlement_IndustryData-Swift.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="MethodOfPayment">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_MOP.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_MOP.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="MOPPriority">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_MOPPriority.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_MOPPriority.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="CutOff">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_CutOff.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_CutOff.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="BulkProfile">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_BulkProfile.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_BulkProfile.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="BulkProfileOverride">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/DistributionData/Entitlement_BulkProfileOverride.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/DistributionData/Entitlement_BulkProfileOverride.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+</suite> 

@@ -1,0 +1,137 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Business Process Add New
+0
+admin
+Onboarding New Business Process
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Process Code*
+Select
+DEFAULT CONFIGURATION
+CAMT configuration
+Remit configuration
+Incoming RFI configuration
+Incoming RRFI configuration
+Incoming ROF configuration
+ROF configuration
+Incoming RROF configuration
+Incoming RFP configuration
+Incoming RRFP configuration
+Outgoing RFI configuration
+Outgoing RRFI configuration
+Outgoing ROF configuration
+Outgoing RROF configuration
+Outgoing RFP configuration
+Outgoing RRFP configuration
+LoadMore
+Select
+Work Flow Code*
+Select
+WORK FLOW FOR PAYMENT PROCESSING
+WORK FLOW FOR INSTRUCTION PROCESSING
+CONFIRMATION INSTRUCTION PROCESSING
+CONFIRMATION TRANSACTION PROCESSING
+RFP INSTRUCTION PROCESSING
+RFP Transaction
+LoadMore
+Select
+Function Code*
+Select
+OFACCheck
+DebitPartyDerivation
+CreditPartyDerivation
+ProductSelection
+MOPDerivation
+ExecutePaymentDuplicateCheck
+Warehouse
+Fx
+PrepareAccountingEntries
+FundsControl
+LiquidityControl
+AccountPosting
+TransformAndTransmit
+ValidateAndDebulkProcessor
+CheckThresholds
+OSPProductSelection
+ValidatePaymentCurrency
+InstructionDuplicateCheck
+ValidateAndDebulkResponses
+DepartmentSelection
+FundsControlReversal
+CodeHandler
+DebtorAcctIdentifyAndValidate-RFP
+ConfResponseHandlingForAMND
+ValidateAndDebulkProcessor-RFP
+CheckThresholds-RFP
+CheckMandate-RFP
+HandleResponseforRFP
+ExecutePaymentDuplicateCheck-RFP
+GenerateStatusReport-RFP
+LiquidityControlReversal
+FinalizeStatusForRJCT
+SendSelectedAttchMsgToTxProcess
+TransmitAttachedMessage
+CreditTransferMatchWithROF
+CreditPartyDerivation-RFP
+InstrConfCheck
+HandleTimeOutForROF
+CreditorAcctIdentifyAndValidate-RFP
+ProductSelection-RFP
+MOPDerivation-RFP
+TransformAndTransmit-RFP
+ConfCheckForRROF
+GeneratePaymentForRROF
+FinalizeIncomingCT
+ConfResponseHandlingForRJCT
+CreditTransferMatchWithRFP
+PCDEnrichment
+DupCheckForAttachMsg
+ProcessApproval
+INSTRDEMOIF
+ValueDateBackDated_RFP
+OSPProductEnrichmentForBook
+LoadMore
+Select
+Activity Index*
+Business Rule Handler Flow
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Add Business Process Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

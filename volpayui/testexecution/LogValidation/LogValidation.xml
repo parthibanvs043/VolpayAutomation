@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LogValidation">
+<!--InternetExplorer,Firefox-->
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <!--Bank Data Module-->
+<test name="AuditLogValidation">
+    <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/LogValidation/AuditLogValidation.html" />
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/LogValidation/LogValidation.xls" />
+    <classes>
+     <class name="com.volante.volpayui.ReferenceDataDriver"/>
+    </classes>
+</test>
+</suite>

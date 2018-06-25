@@ -1,0 +1,52 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Product
+0
+admin
+Product
+View Product, Edit Product Details
+7 out of 7 records shown
+Clear Cache
+
+Add Product
+Automated Clearing House - ACH
+Effective From Date :
+2016-01-01
+Wires - WIRES
+Effective From Date :
+2016-01-01
+Internal Payments - INTERNAL
+Effective From Date :
+2016-01-01
+BOOK Internal Payments - BOOK_INTERNAL
+Effective From Date :
+2016-01-01
+Incoming Payments - BOOK_INCOMING
+Effective From Date :
+2016-01-01
+DBS Product Code - DBS
+Effective From Date :
+2018-06-06
+HSBC Product Code - HSBC
+Effective From Date :
+2018-06-06
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

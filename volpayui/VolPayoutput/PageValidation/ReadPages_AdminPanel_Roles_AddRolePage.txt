@@ -1,0 +1,36 @@
+Home
+Payment Module
+Admin Panel
+User Management
+Roles & Permissions
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Admin Panel Roles & Permissions Roles Add
+0
+admin
+Roles
+Add new roles
+
+Role ID *
+Role Name *
+Role Type *
+--Select--
+Approver
+Operator
+Status *
+--Select--
+ACTIVE
+INACTIVE
+SUSPENDED
+Effective From Date *
+Effective Till Date
+Add Role Save as Draft Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

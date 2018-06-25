@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReferenceData_Edit" verbose="1">
+<test name="BankData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/BankData/BankDataGridViewEdit.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/BankData_Edit.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="OnboardingData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/OnboardingData/OnboardingDataGridViewEdit.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/OnboardingData_Edit.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="DistributionData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/DistributionData/DistributionDataGridViewEdit.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/DistributionData_Edit.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="SystemData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/SystemData/SystemDataGridViewEdit.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/SystemData_Edit.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+</suite>

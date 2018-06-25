@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VolPay_RTPProcessing" verbose="1">
+<test name="RTPProcessing_Outgoing">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/RTPProcessing/VolPay_CreditTranafer_Outgoing.xls" />									
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/RTPProcessing/RTPProcessing_Outgoing.html" />
+       <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test> 
+<test name="RTPProcessing_Incoming">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/RTPProcessing/VolPay_CreditTranafer_Incoming.xls" />									
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/RTPProcessing/RTPProcessing_Incoming.html" />
+       <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test> 
+</suite> 

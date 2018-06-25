@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DistributionData">
+<!--InternetExplorer,Firefox-->
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="DistributionData">
+    <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/ReferenceData/DistributionData_Create.html" />
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/ReferenceData/DistributionData/DistributionData_Create.xls" />
+    <classes>
+      <class name="com.volante.volpayui.ReferenceDataDriver"/>
+    </classes>
+  </test>
+</suite>

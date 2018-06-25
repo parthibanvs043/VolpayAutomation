@@ -1,0 +1,134 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Approval Condition
+0
+admin
+Approval Condition
+View Approval Condition, Edit Approval Condition Details
+20 out of 195 records shown
+Clear Cache
+
+Add Approval Condition
+User Management - 1
+Operation :
+C
+Effective From Date :
+2017-01-01
+User Management - 1
+Operation :
+U
+Effective From Date :
+2017-01-01
+User Management - 1
+Operation :
+D
+Effective From Date :
+2017-01-01
+Received Instructions - 1
+Operation :
+Download
+Effective From Date :
+2017-01-01
+Received Instructions - 1
+Operation :
+FileUpload
+Effective From Date :
+2017-01-01
+Received Instructions - 1
+Operation :
+ReProcess
+Effective From Date :
+2017-01-01
+Received Instructions - 1
+Operation :
+Reject
+Effective From Date :
+2017-01-01
+All Payments - 1
+Operation :
+Accept
+Effective From Date :
+2017-01-01
+All Payments - 1
+Operation :
+AddNotes
+Effective From Date :
+2017-01-01
+AddOn - 1
+Operation :
+C
+Effective From Date :
+2017-01-01
+AddOn - 1
+Operation :
+U
+Effective From Date :
+2017-01-01
+AddOn - 1
+Operation :
+D
+Effective From Date :
+2017-01-01
+Alerts & Notifications - 1
+Operation :
+C
+Effective From Date :
+2017-01-01
+Alerts & Notifications - 1
+Operation :
+U
+Effective From Date :
+2017-01-01
+Alerts & Notifications - 1
+Operation :
+D
+Effective From Date :
+2017-01-01
+Rule Builder - 1
+Operation :
+C
+Effective From Date :
+2017-01-01
+Rule Builder - 1
+Operation :
+U
+Effective From Date :
+2017-01-01
+Rule Builder - 1
+Operation :
+D
+Effective From Date :
+2017-01-01
+MetaInfo - 1
+Operation :
+C
+Effective From Date :
+2017-01-01
+MetaInfo - 1
+Operation :
+U
+Effective From Date :
+2017-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

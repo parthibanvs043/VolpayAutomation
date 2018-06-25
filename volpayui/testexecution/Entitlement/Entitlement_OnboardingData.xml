@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OnboardingData" verbose="1">
+<!-- Modules count in System Data=10 -->
+<test name="ServiceGroup">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_ServiceGroup.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_ServiceGroup.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test>
+<test name="Service">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_Service.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_Service.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test>
+<test name="Product">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_Product.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_Product.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="Party">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_Party.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_Party.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="Account">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_Account.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_Account.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="Transport">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_Transport.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_Transport.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="PartyServiceAssociation">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/OnboardingData/Entitlement_PSA.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/OnboardingData/Entitlement_PSA.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+</suite> 

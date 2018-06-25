@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnboardingData>
+       <OnboardingModule>Onboarding Data</OnboardingModule>
+       <Submit>button[tooltip='Submit']</Submit>
+	   <statusBox>statusBox</statusBox>
+	   <ChangesModule>.//*[@id='changesLostModal']/div/div</ChangesModule>
+<GridView>
+        <View>btn_2</View>      
+        <AddNewButton>button[tooltip='Add New']</AddNewButton>
+</GridView>
+<TextValues>
+        <AddNewText>//h2[@class='ng-binding']</AddNewText>    
+</TextValues>
+<Links>
+        <ServiceGroupLink>Service Group</ServiceGroupLink>
+        <ServiceLink>Service</ServiceLink>
+        <ProductLink>Product</ProductLink>
+        <PartyLink>Party</PartyLink>
+        <AccountLink>Account</AccountLink>
+        <TransportLink>Transport</TransportLink>
+        <PSALink>Party Service Association</PSALink>
+</Links>
+<ServiceGroup>
+      <ServiceGroupCode>Service Group Code</ServiceGroupCode>
+      <ServiceGroupName>Service Group Name</ServiceGroupName>
+      <ServiceGroupDesc>Service Group Description</ServiceGroupDesc>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</ServiceGroup>
+<Product>
+      <ProductCode>Product Code</ProductCode>
+      <ProductName>Product Name</ProductName>
+      <ProductDesc>Product Description</ProductDesc>
+	  <ProductCat>.//*[@id='Product Category']</ProductCat>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Product>
+<Service>
+      <ServiceCode>Service Code</ServiceCode>
+      <ServiceName>Service Name</ServiceName>
+	  <ServiceDesc>Service Description</ServiceDesc>
+      <ServiceGroupCode>.//*[@id='select2-Service Group Code-container']</ServiceGroupCode>
+	  <OfferedByEntity>//div[select[@id='Offered By Entity']]</OfferedByEntity>
+	  <MarketCurrency>//div[select[@id='Market Currencies']]</MarketCurrency>
+	  <InstructionCurrency>//div[select[@id='Instruction Currencies']]</InstructionCurrency>
+      <ServiceIdConfigCode>Service ID Configuration Code</ServiceIdConfigCode>
+	  <ServiceIdPatternCode>.//*[@id='select2-Service ID Pattern Code-container']</ServiceIdPatternCode>
+	  <PDCParameters>.//*[@id='select2-fldName-container']</PDCParameters>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Service>
+ <Account>
+   <AccountNumber>Account Number</AccountNumber> 
+   <IBAN>IBAN</IBAN>
+   <AccountName>Account Name</AccountName>
+   <PartyCode>.//*[@id='select2-Party Code-container']</PartyCode>
+   <AccounType>.//*[@id='Account Type']</AccounType>
+   <PrefferedAccountNumber>PrefferedAccount</PrefferedAccountNumber>
+   <AccountCurrencyLsit>//div[select[@id='Account Currency (List)']]</AccountCurrencyLsit> 
+   <DefaultCurrency>//span[@id='select2-Default Currency-container']</DefaultCurrency>
+   <AccountingSystem>Accounting System</AccountingSystem>
+   <BranchCode>//span[@id='select2-Branch Code-container']</BranchCode>
+   <ProcessingRestrications>//select[@id='Processing Restrictions']</ProcessingRestrications>
+   <LegalEntityIdentifier>Legal Entity Identifier</LegalEntityIdentifier>
+   <AccountDebitAuthorization>//div[select[@id='Account Debit Authorization']]</AccountDebitAuthorization>
+   <AddressLine1>Address Line1</AddressLine1>
+   <AddressLine2>Address Line2</AddressLine2>
+   <City>City</City>
+   <State>State</State>
+   <PostCode>//input[@id='Post Code']</PostCode>
+   <Country>//input[@id='Country']</Country>
+   <EmailID>//input[@id='Email ID']</EmailID>
+   <PhoneNo>//input[@id='Phone No']</PhoneNo>
+</Account>
+<Party>
+       <PartyCode>Party Code</PartyCode> 
+       <PartyName>Party Name</PartyName>
+       <PartyDisplayname>Party Display Name</PartyDisplayname>
+       <ParentPartyCode>//span[@id='select2-Parent Party Code-container']</ParentPartyCode> 
+       <PartyType>Party Type</PartyType> 
+       <PartySubType>Party Sub Type</PartySubType>
+       <SupportsUC>SupportsULyingCust</SupportsUC>
+       <UCDataAvailable>ULyingCustDataAvlbl</UCDataAvailable> 
+       <PartyExternalIdentifier>Party External Identifier</PartyExternalIdentifier> 
+       <ChargesAccountNumber>Default Charges Account Number</ChargesAccountNumber> 
+       <ChargesAccountCurrency>Default Charges Account Currency</ChargesAccountCurrency> 
+       <ProcessRestrication>Processing Restrictions</ProcessRestrication> 
+       <CalendarCode>//span[@id='select2-Calendar Code-container']</CalendarCode>
+       <CutOffProfileCode>//span[@id='select2-Cutoff Profile Code-container']</CutOffProfileCode>
+       <AddressLine1>Address Line1</AddressLine1>
+       <AddressLine2>Address Line2</AddressLine2> 
+       <City>City</City>
+       <State>State</State>
+       <PostCode>//input[@id='Post Code']</PostCode>
+   	   <Country>//input[@id='Country']</Country>
+       <EmailID>//input[@id='Email ID']</EmailID>
+       <PhoneNo>//input[@id='Phone No']</PhoneNo>
+       <LegalEntityIdentifier>Legal Entity Identifier</LegalEntityIdentifier>
+</Party>
+</OnboardingData>

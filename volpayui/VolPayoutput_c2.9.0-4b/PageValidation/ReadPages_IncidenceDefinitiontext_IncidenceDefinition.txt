@@ -1,0 +1,134 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Incidence Definition
+0
+admin
+Incidence Definition
+View Incidence Definition, Edit Incidence Definition Details
+20 out of 174 records shown
+Clear Cache
+
+Add Incidence Definition
+WAIT_OUT_RRFI - ISSUE
+Work Flow Code :
+ATTCHMSG_TXN
+Effective From Date :
+2017-04-25
+PMNTDUP101 - ISSUE
+Work Flow Code :
+RFP_TXN
+Effective From Date :
+2018-06-06
+PMNTDUP101 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+INSTRDUP101 - ISSUE
+Work Flow Code :
+INSTRUCTION
+Effective From Date :
+2017-01-01
+INSTRDUP102 - ISSUE
+Work Flow Code :
+INSTRUCTION
+Effective From Date :
+2017-01-01
+VAL101 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+PAR101 - ISSUE
+Work Flow Code :
+INSTRUCTION
+Effective From Date :
+2017-01-01
+RFPRJCT001 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-04-25
+INSTRUCTIONHOLD01 - ISSUE
+Work Flow Code :
+INSTRUCTION
+Effective From Date :
+2017-01-01
+MOPD001 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD002 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD003 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+PHOA - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-03-02
+HOLD - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-03-02
+MOPD004 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD005 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD006 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD007 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD008 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+MOPD009 - ISSUE
+Work Flow Code :
+PAYMENT
+Effective From Date :
+2017-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

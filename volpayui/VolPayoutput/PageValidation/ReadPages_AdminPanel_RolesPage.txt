@@ -1,0 +1,40 @@
+Home
+Payment Module
+Admin Panel
+User Management
+Roles & Permissions
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Admin Panel Roles & Permissions
+0
+admin
+Roles & Permissions
+View Roles and Permissions, Edit Roles and Permissions
+3 out of 3 records shown
+
+Add Role
+Show Drafts
+Approver - Approver
+Role Name :
+Approver
+Effective From Date :
+2018-06-12
+Super Admin - System Admin
+Role Name :
+Super Admin
+Effective From Date :
+2017-01-01
+Operator - Operator
+Role Name :
+Operator
+Effective From Date :
+2018-06-12
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

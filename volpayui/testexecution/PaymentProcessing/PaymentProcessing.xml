@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VolPay_PaymentProcessing" verbose="1">
+<test name="PaymentProcessing">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/PaymentProcessing/VolPay_PaymentProcessing.xls" />									
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/PaymentProcessing/VolPay_PaymentProcessing.html" />
+       <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test> 
+<test name="InterfaceOverride">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/PaymentProcessing/VolPay_InterfaceOverride.xls" />									
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/PaymentProcessing/InterfaceOverride.html" />
+       <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test> 
+</suite> 

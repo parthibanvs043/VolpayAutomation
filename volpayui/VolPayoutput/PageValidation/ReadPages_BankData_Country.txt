@@ -1,0 +1,95 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data Country
+0
+admin
+Country
+View Country, Edit Country Details
+20 out of 249 records shown
+Clear Cache
+
+Add Country
+ALL COUNTRY - ALL
+Effective From Date :
+2016-01-01
+ANDORRA - AD
+Effective From Date :
+2016-01-01
+UNITED ARAB EMIRATES - AE
+Effective From Date :
+2016-01-01
+AFGHANISTAN - AF
+Effective From Date :
+2016-01-01
+ANTIGUA AND BARBUDA - AG
+Effective From Date :
+2016-01-01
+ANGUILLA - AI
+Effective From Date :
+2016-01-01
+ALBANIA - AL
+Effective From Date :
+2016-01-01
+ARMENIA - AM
+Effective From Date :
+2016-01-01
+ANGOLA - AO
+Effective From Date :
+2016-01-01
+ANTARCTICA - AQ
+Effective From Date :
+2016-01-01
+ARGENTINA - AR
+Effective From Date :
+2016-01-01
+AMERICAN SAMOA - AS
+Effective From Date :
+2016-01-01
+AUSTRIA - AT
+Effective From Date :
+2016-01-01
+AUSTRALIA - AU
+Effective From Date :
+2016-01-01
+ARUBA - AW
+Effective From Date :
+2016-01-01
+ALAND ISLANDS - AX
+Effective From Date :
+2016-01-01
+AZERBAIJAN - AZ
+Effective From Date :
+2016-01-01
+BOSNIA AND HERZEGOVINA - BA
+Effective From Date :
+2016-01-01
+BARBADOS - BB
+Effective From Date :
+2016-01-01
+BANGLADESH - BD
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

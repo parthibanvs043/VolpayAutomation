@@ -1,0 +1,132 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Approval Condition Add New
+0
+admin
+Onboarding New Approval Condition
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Approval Count*
+Resource Name*
+Select
+User Management
+Received Instructions
+All Payments
+AddOn
+Alerts & Notifications
+Rule Builder
+MetaInfo
+Log Configuration
+Service Configuration
+Application Config
+MPI Template
+Service Registry
+Branch
+Method Of Payment
+Route Registry
+Currency Correspondent
+Business Rules
+FX Rates
+Office
+Bulk Profile
+Bulk Profile Override
+Party
+Party Service Association
+Transport
+Approval Condition
+Service
+Service Group
+Account
+Product
+Calendar
+Country
+Currency
+Country Correspondent
+CutOff
+Membership
+Department
+Region
+MOP Priority
+Acknowledgement Details
+Approvals
+Entitlement
+My Profile
+Action Definition
+Incidence Constraints
+User Profile
+Report
+Role
+Role Permissions
+Distributed Instructions
+Incidence Definition
+Status Approval Config
+Business Function
+Business Process
+VolPay ID Configuration
+Business Function Master
+Business Process Master
+Task Master
+Work Flow Master
+Status Action
+Status Definition
+Interface
+Bank Routing
+Pick List Manager
+Industry Data-SWIFT
+LoadMore
+Select
+Operation*
+Select
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Conditions
+Attribute Name*
+Select
+Operator*
+Select
+=
+!=
+<
+>
+<=
+>=
+IN
+Value*
+Add Approval Condition Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFIPmtStsRpt>
+		<GrpHdr>
+			<MsgId>1200</MsgId>
+			<CreDtTm>2016-05-19T02:00:00</CreDtTm>
+		</GrpHdr>
+		<OrgnlGrpInfAndSts>
+			<OrgnlMsgId>M20180517143104VVMMMIGYRJBCHWQ16544</OrgnlMsgId> <!-- File ID Get it from PAYMENTINPUTOUTPUTCORRELATION UNIQUEOUTPUTREFERENCE -->
+			<OrgnlMsgNmId>pacs.008.001.06</OrgnlMsgNmId>
+			<OrgnlCreDtTm>2016-05-19T01:00:00</OrgnlCreDtTm>
+			<OrgnlNbOfTxs>1</OrgnlNbOfTxs>
+		</OrgnlGrpInfAndSts>
+		<TxInfAndSts>
+			<OrgnlInstrId>M20180517143104VVMMMIGYRJBCHWQ16544</OrgnlInstrId> <!-- Processed Payment Distribution ID -->
+			<OrgnlTxId>VPE174200000000000000000000001</OrgnlTxId>
+			<TxSts>RJCT</TxSts> <!-- ACCP, ACTC, ACSP, RJCT, PDNG -->
+			<AccptncDtTm>2016-05-19T01:30:00</AccptncDtTm>
+			<ClrSysRef>010</ClrSysRef>
+		</TxInfAndSts>
+	</FIToFIPmtStsRpt>
+</Document>

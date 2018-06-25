@@ -1,0 +1,34 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Industry Data-SWIFT
+0
+admin
+Industry Data-SWIFT
+View Industry Data-SWIFT, Edit Industry Data-SWIFT Details
+0 out of 0 records shown
+Clear Cache
+No Records Found
+
+Add Industry Data-SWIFT
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

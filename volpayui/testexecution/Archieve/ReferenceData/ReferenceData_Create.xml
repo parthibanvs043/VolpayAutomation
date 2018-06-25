@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReferenceData_Create" verbose="1">
+<test name="BankData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/BankData/BankDataGridViewCreate.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/BankData_Create.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+	<!--
+<test name="OnboardingData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/OnboardingData/OnboardingDataGridViewCreate.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/OnboardingData_Create.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="DistributionData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/DistributionData/DistributionDataGridViewCreate.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/DistributionData_Create.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+<test name="SystemData">  
+   <parameter name="driverPath" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPaydata/ReferenceData/SystemData/SystemDataGridViewCreate.xls" />
+   <parameter name="Report" value="/home/administrator/Backup/VolPayUI_Regression/UIAutomation/volpayui/VolPayoutput/reports/ReferenceData/SystemData_Create.html"/>
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test> -->
+</suite>

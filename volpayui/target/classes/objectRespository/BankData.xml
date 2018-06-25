@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BankData>
+       <BankDataModule>Bank Data</BankDataModule>
+       <Submit>button[tooltip='Submit']</Submit>
+	   <statusBox>statusBox</statusBox>
+	   <ChangesModule>.//*[@id='changesLostModal']/div/div</ChangesModule>
+<GridView>
+        <View>btn_2</View>      
+       <AddNewButton>button[tooltip='Add New']</AddNewButton>
+</GridView>
+<TextValues>
+        <AddNewCalendar>//h2[@class='ng-binding']</AddNewCalendar>    
+</TextValues>
+<Links>
+        <CalendarLink>Calendar</CalendarLink>
+        <CountryLink>Country</CountryLink>
+        <RegionLink>Region</RegionLink>
+        <CurrencyLink>Currency</CurrencyLink>
+        <OfficeLink>Office</OfficeLink>
+        <BranchLink>Branch</BranchLink>
+        <DepartmentLink>Department</DepartmentLink>
+        <MemberShipLink>Membership</MemberShipLink>
+        <BusinessRulesLink>Business Rules</BusinessRulesLink>
+        <FxRateLink>FX Rates</FxRateLink>
+        <MPITemplateLink>MPI Template</MPITemplateLink>
+</Links>
+<Region>
+      <RegionCode>Region Code</RegionCode>
+      <RegionName>Region Name</RegionName>
+      <CountryCodeList>//div[select[@id='Country Code (List)']]</CountryCodeList>
+      <CalendarCode>.//*[@id='select2-Calendar Code-container']</CalendarCode>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Region>
+<Country>
+      <CountryCode>Country Code</CountryCode>
+      <CountryName>Country Name</CountryName>
+      <RegionCode>.//*[@id='select2-Region Code-container']</RegionCode>
+      <CalendarCode>.//*[@id='select2-Calendar Code-container']</CalendarCode>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Country>
+<Calendar>
+      <CalendarCode>Calendar Code</CalendarCode>
+      <CalendarName>Calendar Name</CalendarName>
+      <CalendarValidTillDate>Calendar Valid Till</CalendarValidTillDate>
+      <IsSaturday>IsSaturdayWeekend</IsSaturday>
+      <IsSunday>IsSundayWeekend</IsSunday>
+      <IsMonday>IsMondayWeekend</IsMonday>
+      <IsTuesday>IsTuesdayWeekend</IsTuesday>
+      <IsWednesday>IsWednesdayWeekend</IsWednesday>
+      <IsThursday>IsThursdayWeekend</IsThursday>
+      <IsFriday>IsFridayWeekend</IsFriday>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+      <HolidayDate>HolidayDate</HolidayDate>
+      <HolidayDescription>HolidayDescription</HolidayDescription>
+</Calendar>
+<Currency>
+      <CurrencyCode>Currency Code</CurrencyCode>
+      <CurrencyName>Currency Name</CurrencyName>
+      <DecimalDigit>Allowed Decimal Digits</DecimalDigit>
+      <CalendarCode>.//*[@id='select2-Calendar Code-container']</CalendarCode>
+      <CountryCode>.//*[@id='select2-Country Code-container']</CountryCode>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Currency>
+<Department>
+      <DepartmentCode>Department Code</DepartmentCode>
+      <DepartmentName>Department Name</DepartmentName>
+      <CanReroute>CanReroute</CanReroute>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Department>
+<Office>
+      <OfficeCode>Office Code</OfficeCode>
+      <OfficeName>Office Name</OfficeName>
+      <DefaultOfffice>IsDefaultOffice</DefaultOfffice>
+	  <CalendarCode>.//*[@id='select2-Calendar Code-container']</CalendarCode>
+	  <BusinessDate>span[class='input-group-addon']</BusinessDate>
+	  <CurrencyCode>.//*[@id='select2-Currency Code-container']</CurrencyCode>
+	  <CountryCodeList>.//*[@id='dynamicModuleForm']/div[1]/div[7]/div[2]/div[1]/span/span[1]/span</CountryCodeList>
+	  <RegionCodeList>.//*[@id='dynamicModuleForm']/div[1]/div[8]/div/div[1]/span/span[1]/span</RegionCodeList>
+	  <BackdatedPaymentsDays>Backdated Payments Days</BackdatedPaymentsDays>
+	  <DefaultDepartment>.//*[@id='select2-Default Department-container']</DefaultDepartment>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Office>
+<Branch>
+      <BranchCode>Branch Code</BranchCode>
+      <BranchName>Branch Name</BranchName>
+      <DefaultBranch>IsDefaultBranch</DefaultBranch>
+	  <OfficeCode>.//*[@id='select2-Office Code-container']</OfficeCode>
+	  <ParentBranchCode>.//*[@id='select2-Parent Branch Code-container']</ParentBranchCode>
+	  <PartyCode>.//*[@id='select2-Party Code-container']</PartyCode>
+	  <CountryCode>.//*[@id='select2-Country Code-container']</CountryCode>
+	  <CalendarCode>.//*[@id='select2-Calendar Code-container']</CalendarCode>
+	  <BaseCurrency>Base Currency for Branch</BaseCurrency>
+	  <SupportedCurrency>.//*[@id='dynamicModuleForm']/div[1]/div[10]/div[2]/div[1]/span/span[1]/span</SupportedCurrency>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</Branch>
+<FxRate>
+      <OfficeCode>.//*[@id='select2-Office Code-container']</OfficeCode>
+      <ApplicableDate>span[class='input-group-addon']</ApplicableDate>
+      <SourceCurrency>Source Currency</SourceCurrency>
+	  <TargetCurrency>Target Currency</TargetCurrency>
+	  <Rate>Rate</Rate>
+	  <Threshold>Threshold</Threshold>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</FxRate>
+<MPITemplate>
+		<PartyCode>//div[select[@name='party']]</PartyCode>
+		<Service>span[title='Payment service']</Service>
+		<MessageType>MessageType</MessageType>
+		<PSACode>psaCode</PSACode>
+		<Branch>Branch</Branch>
+		<ProductsSupported>PaymentType</ProductsSupported>
+		<ValueDate>input[name='ValueDate']</ValueDate>
+		<DebtorCustomerProprietaryCode>AccountDomiciledCountry</DebtorCustomerProprietaryCode>
+		<PaymentCurrency>PaymentCurrency</PaymentCurrency>
+		<Amount>input[name='Amount']</Amount>
+		<EndToEndID>input[name='EndToEndId']</EndToEndID>
+		<ChargeCode>ChargeCode</ChargeCode>
+		<OCClientID>ClientID</OCClientID>
+		<OCName>//input[@name='ClientName']</OCName>
+		<OCAddressLine1>input[name='ClientAddressLine1']</OCAddressLine1>
+		<OCAddressLine2>input[name='ClientAddressLine2']</OCAddressLine2>
+		<OCCity>input[name='ClientCountryCity']</OCCity>
+		<OCState>input[name='ClientCountryState']</OCState>
+		<OCPostCode>input[name='ClientCountryPostCode']</OCPostCode>
+		<OCCountry>input[name='ClientCountryCode']</OCCountry>
+		<OCAccountNumber>OrderingCustomer_AccountNumber</OCAccountNumber>
+		<OCAccountCurrency>AccountCurrency</OCAccountCurrency>
+		<OCAccountName>//input[@name='AccountName']</OCAccountName>
+		<OCAccountDomiciledCountry>name:AccountDomiciledCountry</OCAccountDomiciledCountry>	
+		<BankIdentifierType>BankIdentifierType1</BankIdentifierType>
+		<BankIdentifierCode>BIC1</BankIdentifierCode>
+		<BBAddressLine1>input[ng-model='BeneficiaryBank.BankAddressLine1']</BBAddressLine1>
+		<BBAddressLine2>input[ng-model='BeneficiaryBank.BankAddressLine2']</BBAddressLine2>
+		<BBCity>input[ng-model='BeneficiaryBank.City']</BBCity>
+		<BBState>input[ng-model='BeneficiaryBank.State']</BBState>
+		<BBPostCode>input[ng-model='BeneficiaryBank.PostCode']</BBPostCode>
+		<BBCountry>input[ng-model='BeneficiaryBank.Country']</BBCountry>
+		<BDAccountNo>input[ng-model='Beneficiary.AccountNumber']</BDAccountNo>	
+		<BDName>input[ng-model='Beneficiary.Name']</BDName>
+		<BeneficiaryAddressLine1>input[ng-model='Beneficiary.BankAddressLine1']</BeneficiaryAddressLine1>
+		<BeneficiaryAddressLine2>input[ng-model='Beneficiary.BankAddressLine2']</BeneficiaryAddressLine2>
+		<BDCity>input[ng-model='Beneficiary.City']</BDCity>
+		<BDState>input[ng-model='Beneficiary.State']</BDState>
+		<BenPostCode>input[ng-model='Beneficiary.PostCode']</BenPostCode>
+		<BenCountry>input[ng-model='Beneficiary.Country']</BenCountry>
+		<RemittanceID>input[ng-model='RemittanceInformation.RemittanceID']</RemittanceID>
+		<RemittanceInformation>textarea[ng-model='RemittanceInformation.RemittanceInformation']</RemittanceInformation>
+		<IntermediaryDetailsBankIdentifierType>BankIdentifierType</IntermediaryDetailsBankIdentifierType>
+		<IntermediaryDetailsBankIdentifierCode>BIC</IntermediaryDetailsBankIdentifierCode>
+		<InterBankAddressLine1>input[ng-model='IntermediaryBankDetails.BankAddressLine1']</InterBankAddressLine1>
+		<InterBankAddressLine2>input[ng-model='IntermediaryBankDetails.BankAddressLine2']</InterBankAddressLine2>
+		<InterBankCity>input[ng-model='IntermediaryBankDetails.City']</InterBankCity>
+		<InterBankState>input[ng-model='IntermediaryBankDetails.State']</InterBankState>
+		<InterPostCode>input[ng-model='IntermediaryBankDetails.PostCode']</InterPostCode>
+		<InterBankCountry>input[ng-model='IntermediaryBankDetails.Country']</InterBankCountry>
+		<TemplateName>input[placeholder='Please Enter Template Name']</TemplateName>
+		<RolesAccessible>//ul[li[input[@role='textbox']]]</RolesAccessible>
+		<Status>select[ng-model='TemplateDetails.Status']</Status>
+		<EffectiveFromDate>input[ng-model='TemplateDetails.EffectiveFromDate']</EffectiveFromDate>
+		<EffectiveTillDate>input[ng-model='TemplateDetails.EffectiveTillDate']</EffectiveTillDate>
+		<Description>textarea[ng-model='TemplateDetails.Description']</Description>		
+</MPITemplate>
+</BankData>

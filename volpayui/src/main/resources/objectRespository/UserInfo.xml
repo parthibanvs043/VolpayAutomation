@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserInfo>
+	<GridView>
+	        <View>btn_2</View>      
+	       <AddNewButton>button[tooltip='Add New']</AddNewButton>
+	</GridView>
+	<Login>
+       <Username>username</Username>
+       <Password>password</Password>
+	   <submitButton>//button[contains(text(),'Login')]</submitButton>
+	</Login>
+	<CreateUser>
+		<UserID>//input[@name='UserID']</UserID>
+		<FirstName>//input[@name='FirstName']</FirstName>
+		<LastName>//input[@name='LastName']</LastName>
+		<UserMailID>AddUserMail</UserMailID> 							
+		<adminpassword>//input[@name='Password']</adminpassword>
+		<ConfirmPW>//input[@name='ConfirmPW']</ConfirmPW>
+		<UserRoleID>//input[@class='select2-search__field']</UserRoleID>
+		<UserStatus>//*[@id='select2-enableFlag-container']</UserStatus>
+		<TimeZone>//span[@id='select2-timeZone-container']</TimeZone>
+		<UserEffecFromDate>#EffectiveFromDate</UserEffecFromDate>
+		<UserEffecTillDate>//input[@id='EffectiveTillDate']</UserEffecTillDate>
+		<UserRoleStatus>//*[@id='select2-Status0-container']</UserRoleStatus>
+		<EffectiveFromDate>#Subsec_EffectiveFromDate0</EffectiveFromDate>
+		<EffectiveTillDate>Subsec_EffectiveTillDate0</EffectiveTillDate>		
+		<Continue>//button[@id='Continue1']</Continue>
+		<AdminSubmit>//button[contains(text(),'Submit')]</AdminSubmit>
+		<AdminBack>//button[contains(text(),'Back')]</AdminBack>
+	</CreateUser>
+	<PswdReset>
+		<OldPW>(//input[@id='oldPW'])[2]</OldPW>
+		<NewPW>(//input[@name='newPW'])[2]</NewPW>
+		<ConfirmNewPW>(//input[@name='confirmPW'])[2]</ConfirmNewPW>
+		<Update>(//button[contains(text(),'Update')])[2]</Update>
+	</PswdReset>
+	<Links>
+		<AdminPanel>Admin Panel</AdminPanel>
+		<UserMgmt>User Management</UserMgmt>
+		<RolesPermission>Roles &amp; Permissions</RolesPermission>
+	</Links>
+	<Roles>
+		<RoleID>//input[@name='RoleID']</RoleID>
+		<RoleName>//input[@name='RoleName']</RoleName>
+		<RoleType>RoleType</RoleType>
+		<RoleStatus>Status</RoleStatus>
+		<RoleEffectiveFromDate>span[class='input-group-addon']</RoleEffectiveFromDate>
+		<RoleEffectiveTillDate>EffectiveTillDate</RoleEffectiveTillDate>
+		<BtnAddRole>//button[contains(text(),'Add Role')]</BtnAddRole>
+	</Roles>
+	<ForceReset>
+		<FilterBtn>button[tooltip='Filter']</FilterBtn>
+		<Keyword>input[name='keywordSearch']</Keyword>
+		<SearchBtn>button[tooltip='Search']</SearchBtn>
+		<Result>//table[starts-with(@class,'table table')]/tbody/tr/td[2]</Result>
+		<Edit>a[tooltip='Edit']</Edit>
+		<IsForeceReset>//select[@ng-model='data.IsForceReset']</IsForeceReset>
+		<EditSubmit>button[tooltip='Submit']</EditSubmit>		
+	</ForceReset>
+</UserInfo>

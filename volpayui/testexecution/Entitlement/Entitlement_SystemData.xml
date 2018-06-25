@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SystemData" verbose="1">
+<!--Modules count in System Data=10 -->
+<test name="ApplicationConfig">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_ApplicationConfig.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_ApplicationConfig.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test>
+ <test name="BusinessFunction">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_BusinessFunction.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_BusinessFunction.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+ </test> 
+<test name="BusinessProcess">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_BusinessProcess.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_BusinessProcess.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test> 
+<test name="VolPayIDConfig">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_BusinessProcess.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_BusinessProcess.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test>  
+<test name="ActionDefinition">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_ActionDefinition.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_ActionDefinition.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test> 
+<test name="StatusDefinition">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_ActionDefinition.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_ActionDefinition.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test> 
+<test name="IncidenceDefinition">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_IncidenceDefinition.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_IncidenceDefinition.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test> 
+<test name="StatusAction">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_ActionDefinition.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_ActionDefinition.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test>   
+<test name="LogConfig">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_LogConfiguration.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_LogConfiguration.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test> 
+<test name="ApprovalCondition">   
+  <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/SystemData/Entitlement_ApprovalCondition.xls" /> 
+  <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/SystemData/Entitlement_ApprovalCondition.html" /> 
+     <classes> 
+     <class name="com.volante.volpayui.VolPayDriver"/> 
+   </classes> 
+</test> 
+</suite> 

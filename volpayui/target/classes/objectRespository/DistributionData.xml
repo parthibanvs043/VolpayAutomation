@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DistributionData>
+       <DistributionDataModule>Distribution Data</DistributionDataModule>
+       <Submit>button[tooltip='Submit']</Submit>
+	   <statusBox>statusBox</statusBox>
+	   <ChangesModule>.//*[@id='changesLostModal']/div/div</ChangesModule>
+<GridView>
+        <View>btn_2</View>      
+        <AddNewButton>button[tooltip='Add New']</AddNewButton>
+</GridView>
+<Links>
+        <BankRoutingLink>Bank Routing</BankRoutingLink>
+        <CountryCorrespondentLink>Country Correspondent</CountryCorrespondentLink>
+        <CurrencyCorrespondentLink>Currency Correspondent</CurrencyCorrespondentLink>
+        <IndustryDataSwiftLink>Industry Data-SWIFT</IndustryDataSwiftLink>
+        <MethodOfPaymentLink>Method of Payment</MethodOfPaymentLink>
+        <MOPPriorityLink>MOP Priority</MOPPriorityLink>
+        <CutOffLink>CutOff</CutOffLink>
+		<BulkProfileLink>Bulk Profile</BulkProfileLink>
+		<BulkProfileOverrideLink>Bulk Profile Override</BulkProfileOverrideLink>		
+</Links>
+<BankRouting>
+      <Branch>//span[@id='select2-Branch-container']</Branch>
+      <PartyCode>//span[@id='select2-Party Code-container']</PartyCode>
+      <Currency>//span[@id='select2-Currency-container']</Currency>
+	  <CountryCode>//span[@id='select2-Country Code-container']</CountryCode>
+	  <Service>//span[@id='select2-Service-container']</Service>
+	  <Product>//span[@id='select2-Product-container']</Product>
+	  <MinimumAmount>Min Amount</MinimumAmount>
+	  <MaximumAmount>Max Amount</MaximumAmount>
+	  <DestinationBankCode>//span[@id='select2-Destination Bank Code-container']</DestinationBankCode>
+	  <DestinationBankIdentifier>Destination Bank Identifier</DestinationBankIdentifier>
+	  <MessageType>//select[@id='Message Type']</MessageType>
+	  <RoutingMethod>//select[@id='Routing Method']</RoutingMethod>
+	  <AgentBankPartyCode>//span[@id='select2-Agent Bank Party Code-container']</AgentBankPartyCode>
+	  <AgentAccount>//span[@id='select2-Agent Account-container']</AgentAccount>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</BankRouting>
+<CountryCorrespondent>
+      <CountryCode>//span[@id='select2-Country Code-container']</CountryCode>
+      <CountryCorrespondentPartyCode>//span[@id='select2-Country Correspondent Party Code-container']</CountryCorrespondentPartyCode>
+      <RoutingMethod>//select[@id='Routing Method']</RoutingMethod>
+	  <MinimumProcessingDays>Minimum Processing Days</MinimumProcessingDays>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</CountryCorrespondent>
+<CurrencyCorrespondent>
+      <CurrencyCode>//span[@id='select2-Currency Code-container']</CurrencyCode>
+      <CurrencyCorrespondentPartyCode>//span[@id='select2-Currency Correspondent Party Code-container']</CurrencyCorrespondentPartyCode>
+      <RoutingMethod>//select[@id='Routing Method']</RoutingMethod>
+	  <MinimumProcessingDays>Minimum Processing Days</MinimumProcessingDays>
+      <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</CurrencyCorrespondent>
+<IndustryDataSwift>
+      <ModificationFlag>Modification Flag</ModificationFlag>
+      <RecordKey>Record Key</RecordKey>
+      <OfficeType>Office Type</OfficeType>
+	  <ParentOfficeKey>Parent Office Key</ParentOfficeKey>
+	  <HeadOfficeKey>Head Office Key</HeadOfficeKey>
+	  <LegalType>Legal Type</LegalType>
+	  <LegalParentKey>Legal Parent Key</LegalParentKey>
+	  <GroupType>Group Type</GroupType>
+	  <GroupParentKey>Group Parent Key</GroupParentKey>
+	  <InstitutionStatus>Institution Status</InstitutionStatus>
+	  <CooperativeGroupKey>Cooperative Group Key</CooperativeGroupKey>
+	  <ISOLEICode>ISO LEI Code</ISOLEICode>
+	  <BIC8>BIC8</BIC8>
+	  <BranchBIC>Branch BIC</BranchBIC>
+	  <BIC>BIC</BIC>
+	  <CHIPSUID>CHIPS UID</CHIPSUID>
+	  <NationalID>National ID</NationalID>
+	  <ConnectedBIC>Connected BIC</ConnectedBIC>
+	  <InstitutionName>Institution Name</InstitutionName>
+	  <BranchInformation>Branch Information</BranchInformation>
+	  <POBNumber>POB Number</POBNumber>
+	  <StreetAddress1>Street Address 1</StreetAddress1>
+	  <StreetAddress2>Street Address 2</StreetAddress2>
+	  <StreetAddress3>Street Address 3</StreetAddress3>
+	  <StreetAddress4>Street Address 4</StreetAddress4>
+	  <City>City</City>
+	  <CPS>CPS</CPS>
+	  <ZIPCode>ZIP Code</ZIPCode>
+	  <CountryName>Country Name</CountryName>
+	  <ISOCountryCode>ISO Country Code</ISOCountryCode>
+	  <Timezone>Timezone</Timezone>
+	  <SubtypeIndicator>Subtype Indicator</SubtypeIndicator>
+	  <NetworkConnectivity>Network Connectivity</NetworkConnectivity>
+	  <BranchQualifiers>Branch Qualifiers</BranchQualifiers>
+	  <ServiceCodes>Service Codes</ServiceCodes>
+	  <SSIGroupKey>SSI Group Key</SSIGroupKey>
+	  <IBANKey>IBAN Key</IBANKey>
+	  <FieldA>Field A</FieldA>
+	  <FieldB>Field B</FieldB>
+</IndustryDataSwift>
+<MethodOfPayment>
+      <MOPCode>Method Of Payment Code</MOPCode>
+      <MOPCategory>//select[@id='MOPCategory']</MOPCategory>
+      <MOPTechnicalName>MOPTechnicalName</MOPTechnicalName>
+	  <OutputFormat>OutputFormat</OutputFormat>
+	  <ProductCode>//span[@id='select2-ProductCode-container']</ProductCode>
+	  <ClearingSchemeCode>ClearingSchemeCode</ClearingSchemeCode>
+	  <CashClearingSchemeCode>//span[@id='select2-CashClearingSchemeCode-container']</CashClearingSchemeCode>
+	  <CountryCode>//div[select[@id='CountryCode']]</CountryCode>
+	  <CurrencyCode>//div[select[@id='CurrencyCode']]</CurrencyCode>
+	  <SettlementAccountNos>//div[select[@id='SettlementAccountNos']]</SettlementAccountNos>
+	  <SupportedChargeCodes>SupportedChargeCodes</SupportedChargeCodes>
+	  <Description>//textarea[@id='Description']</Description>
+	  <CalendarCode>//span[@id='select2-CalendarCode-container']</CalendarCode>
+	  <MOPBusinessDate>span[class='input-group-addon']</MOPBusinessDate>
+	  <MinimumProcessingDays>MinimumProcessingDays</MinimumProcessingDays>
+	  <EarliestValueDate>EarliestValueDate</EarliestValueDate>
+	  <LatestValueDate>LatestValueDate</LatestValueDate>
+	  <ValueDateExtension>ValueDateExtension</ValueDateExtension>
+	  <CutOffCode>//span[@id='select2-CutoffCode-container']</CutOffCode>
+	  <RoleForwardValueDate>RollForwardValueDate</RoleForwardValueDate>
+	  <MOPTimeExtension>MOPTimeExtension</MOPTimeExtension>
+	  <ValidateMembership>ValidateMembership</ValidateMembership>
+	  <MinAmount>MinAmount</MinAmount>
+	  <MaxAmount>MaxAmount</MaxAmount>
+	  <BulkPayment>BulkPayment</BulkPayment>
+	  <HolidayBulkProfile>//span[@id='select2-HolidayBulkProfile-container']</HolidayBulkProfile>
+	  <WeekdayBulkProfile>//span[@id='select2-WeekdayBulkProfile-container']</WeekdayBulkProfile>
+	  <WeekendBulkProfile>//span[@id='select2-WeekendBulkProfile-container']</WeekendBulkProfile>
+	  <FileIDConfigurationCode>//span[@id='select2-FileIDConfigurationCode-container']</FileIDConfigurationCode>
+	  <PaymentIDConfigurationCode>//span[@id='select2-PaymentIDConfigurationCode-container']</PaymentIDConfigurationCode>
+	  <ExpectResponse>ExpectResponse</ExpectResponse>
+	  <MOPExternalIdentifier>MOPExternalIdentifier</MOPExternalIdentifier>
+	  <ProcessCode>//span[@id='select2-ProcessCode-container']</ProcessCode>
+	  <ResponseFormatIdentifierFlow>RespFmtIdFlow</ResponseFormatIdentifierFlow>
+	  <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>EffectiveTillDate</EffectiveTillDate>
+</MethodOfPayment>
+<MethodOfPaymentPriority>
+      <MethodOfPaymentCode>//span[@id='select2-Method Of Payment Code-container']</MethodOfPaymentCode>
+      <Currency>//input[@id='Currency']</Currency>
+      <Priority>Priority</Priority>
+	  <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</MethodOfPaymentPriority>
+<CutOff>
+      <CutOffCode>//input[@id='CutOff Code']</CutOffCode>
+      <CutOffName>//input[@id='CutOff Name']</CutOffName>
+	  <Status>Status</Status>
+	  <EndTime>//input[@id='EndTime']</EndTime>
+	  <StartTime>//input[@id='StartTime']</StartTime>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+</CutOff>
+<BulkProfile>
+      <BulkProfileCode>Bulk Profile Code</BulkProfileCode>
+      <MaxPaymentsPerBulkMessage>Max Payments Per Bulk Message</MaxPaymentsPerBulkMessage>
+	  <BulkFrequency>Bulk Frequency</BulkFrequency>
+      <BulkEndTime>//input[@id='Bulking End Time']</BulkEndTime>
+	  <BulkStartTime>//input[@id='Bulking Start Time']</BulkStartTime>
+      <BulkTriggerCount>Bulk Trigger Count</BulkTriggerCount>
+	  <PerformBulkingatMOPCutOffTime>BulkAtMOPCutOffTime</PerformBulkingatMOPCutOffTime>
+	  <Status>Status</Status>
+      <EffectiveFromDate>//input[@id='Effective From Date']</EffectiveFromDate>
+      <EffectiveTillDate>Effective Till Date</EffectiveTillDate>
+      <FixedBulkTimes>//input[@id='FixedBulkTime']</FixedBulkTimes>
+</BulkProfile>
+<BulkProfileOverride>
+	  <MOP>//span[@id='select2-MOP-container']</MOP>
+      <Overridetype>//select[@id='Override Type']</Overridetype>
+	  <Overridevalue>//input[@id='Override Value']</Overridevalue>
+      <BulkProfile>//span[@id='select2-Bulk Profile-container']</BulkProfile>
+	  <Status>Status</Status>
+      <EffectiveFromDate>span[class='input-group-addon']</EffectiveFromDate>
+      <EffectiveTillDate>//input[@id='Effective Till Date']</EffectiveTillDate>
+</BulkProfileOverride>
+</DistributionData>

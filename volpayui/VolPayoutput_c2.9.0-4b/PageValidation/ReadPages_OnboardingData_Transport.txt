@@ -1,0 +1,91 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Transport
+0
+admin
+Transport
+View Transport, Edit Transport Details
+20 out of 27 records shown
+Clear Cache
+
+Add Transport
+ASYNC-OUT - OFACINTERFACE_REQ
+Effective From Date :
+2016-11-18
+INPUT - DEMOPSA3_ISOPACS008Clearing
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA3_ISOPACS008Clearing
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA1_ISOPACS008Channel
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA1_ISOPACS008Channel
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA2_MT103
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA2_MT103
+Effective From Date :
+2016-01-01
+OUTPUT - DEMO_ISOPACS008_TC
+Effective From Date :
+2016-01-01
+RESPONSE - DEMO_ISOPACS008_RESPONSE
+Effective From Date :
+2017-01-01
+ASYNC-OUT - LIQUIDITYCONTROLINTERFACE_REQ
+Effective From Date :
+2017-01-10
+ASYNC-IN - LIQUIDITYCONTROLINTERFACE_RES
+Effective From Date :
+2017-01-10
+ASYNC-OUT - ACCOUNTPOSTINGINTERFACE_REQ
+Effective From Date :
+2017-01-10
+ASYNC-IN - ACCOUNTPOSTINGINTERFACE_RES
+Effective From Date :
+2017-01-10
+INPUT - DEMOPSA2_MT103
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA1_ISOPACS008Channel
+Effective From Date :
+2016-01-01
+INPUT - DEMOPSA3_ISOPACS008Clearing
+Effective From Date :
+2016-01-01
+ASYNC-OUT - DEMOINSTRINTERFACEOUT
+Effective From Date :
+2016-01-01
+ASYNC-IN - DEMOINSTRINTERFACEIN
+Effective From Date :
+2016-01-01
+RESPONSE - DEMO_ISOPACS008_NB_RESPONSE
+Effective From Date :
+2017-01-01
+OUTPUT - SWIFT_TC
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

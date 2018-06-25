@@ -1,0 +1,79 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Application Config
+0
+admin
+Application Config
+View Application Config, Edit Application Config Details
+20 records shown
+Action Name Value Type
+| VolPayTest
+ 5
+tes
+| MAXLOGINRETRY
+ 3
+INTEGER
+| ISUSERLOCKENABLED
+ TRUE
+BOOLEAN
+| OTPTORESETPASSWORDMAIL
+ SendResetPasswordOTPMail.vm
+| PORT
+ 465
+| PROTOCOL
+ smtps
+| SENDEREMAILID
+ volante.testing@gmail.com
+| SENDERPASSWORD
+ Volante@123
+| HOST
+ smtp.gmail.com
+| MISCMAILHEADERS
+ mail.smtp.auth=true&mail.smtp.starttls.enable=true
+| SESSIONTIMEOUT
+ 15
+UI Configuration
+| FILESIZERESTRICTION
+ 10
+UI Configuration
+| ADDUSERMAIL
+ AddUserMail.vm
+| SendAlertsAndNotifications
+ false
+| ACKNOTIFICATION
+ AckNotification.vm
+| RECEIVERMAILID
+ volante.testing@gmail.com
+| IsAccountCached
+ false
+| VolPayChannel
+ ../VPH_messages/WorkDir
+WORK_DIRECTORY
+| VolPayHub
+ ../VPH_messages/WorkDir
+WORK_DIRECTORY
+| VolPayHubBankSimulator
+ ../VPH_messages/WorkDir
+WORK_DIRECTORY
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

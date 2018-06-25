@@ -1,0 +1,94 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Action Definition
+0
+admin
+Action Definition
+View Action Definition, Edit Action Definition Details
+20 out of 51 records shown
+Clear Cache
+
+Add Action Definition
+PAYMENT - Submit
+Effective From Date :
+2017-01-01
+PAYMENT - Approve
+Effective From Date :
+2017-01-01
+PAYMENT - CancelPayment
+Effective From Date :
+2017-01-01
+PAYMENT - Cancel
+Effective From Date :
+2017-01-01
+PAYMENT - Return
+Effective From Date :
+2017-01-01
+PAYMENT - Release
+Effective From Date :
+2017-01-01
+PAYMENT - Resend
+Effective From Date :
+2017-01-01
+INSTRUCTION - Accept-hold
+Effective From Date :
+2017-01-01
+PAYMENT - SendNAK
+Effective From Date :
+2017-01-01
+INSTRUCTION - Reject-hold
+Effective From Date :
+2017-01-01
+PAYMENT - GenerateRFI
+Effective From Date :
+2017-01-01
+PAYMENT - GenerateRRFI
+Effective From Date :
+2017-01-01
+PAYMENT - GenerateROF
+Effective From Date :
+2017-01-01
+PAYMENT - GenerateRROF
+Effective From Date :
+2017-01-01
+PAYMENT - GenerateRRFP
+Effective From Date :
+2017-01-01
+PAYMENT - PaymentConfirmation
+Effective From Date :
+2017-01-01
+PAYMENT - Override
+Effective From Date :
+2017-01-01
+PAYMENT - PaymentAck
+Effective From Date :
+2017-01-01
+ATTCHMSG_TXN - SendNAKForAttchMsg
+Effective From Date :
+2017-01-01
+INSTRUCTION - Approve1
+Effective From Date :
+2017-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

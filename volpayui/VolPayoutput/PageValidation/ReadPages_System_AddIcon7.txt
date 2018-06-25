@@ -1,0 +1,200 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Incidence Definition Add New
+0
+admin
+Onboarding New Incidence Definition
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Incidence Type*
+Select
+ISSUE
+Incidence Code*
+Select
+PMNTDUP101
+INSTRDUP101
+INSTRDUP102
+VAL101
+PAR101
+RSKFLT01
+PHOA
+HOLD
+CHQB
+INSTRUCTIONHOLD01
+MOPD001
+MOPD002
+MOPD003
+MOPD004
+MOPD005
+MOPD006
+MOPD007
+MOPD008
+MOPD009
+MOPD010
+MOPD011
+MOPD012
+DPD001
+DPD002
+DPD003
+DPD005
+DPDCPDBR01
+DPDCPDBR02
+DPDCPDBR03
+DPDCPDBR04
+DPDCPDBR05
+DPDCPDBR06
+CPD001
+CPD002
+MOPD013
+RFPRJCT001
+DPV001
+DPV002
+PSAERR001
+DPDCPDBR07
+DPV004
+CONFH001
+CONFH002
+CONFH003
+CONFH004
+CONFH005
+CONFH006
+CONFH007
+CONFH008
+CONFH009
+CONFH010
+FSRJCT001
+DPD007
+RFPRJCT002
+DPD008
+DPD009
+DPD010
+LPV0001
+CPD003
+CPD004
+TRSATTMSG010
+LQC001
+LQC002
+FUND001
+FUND002
+LOGINSTRDUPLICATE02
+LOGPMNTDUPLICATE
+OFAC01
+ACCT01
+MOPD014
+OFAC_TECH_FAIL
+ACCT_TECH_FAIL
+CONFH011
+TRSATTMSG002
+TRSATTMSG004
+TRSATTMSG005
+TRSATTMSG006
+TRSATTMSG007
+TRSATTMSG008
+LOGINSTRDUPLICATE
+TRSATTMSG003
+CHKMDT001
+GPFRROF001
+CONFCHECK001
+CRTMATCHROF001
+ROF_COMPLETED
+RROF_COMPLETED
+TRSATTMSG009
+WAIT_OUT_RRFI
+WAIT_IN_RRFI
+USER_DECLINED_RRFI
+USER_DECLINED_RFI
+RFI_COMPLETED
+WAIT_OUT_RROF
+WAIT_IN_RROF
+USER_DECLINED_RROF
+USER_DECLINED_ROF
+WAIT_IN_CT
+WAIT_OUT_CT
+LoadMore
+Select
+Process Name
+Select
+DEFAULT CONFIGURATION
+CAMT configuration
+Remit configuration
+Incoming RFI configuration
+Incoming RRFI configuration
+Incoming ROF configuration
+ROF configuration
+Incoming RROF configuration
+Incoming RFP configuration
+Incoming RRFP configuration
+Outgoing RFI configuration
+Outgoing RRFI configuration
+Outgoing ROF configuration
+Outgoing RROF configuration
+Outgoing RFP configuration
+Outgoing RRFP configuration
+LoadMore
+Select
+Party Service Association Code
+Select
+Work Flow Code
+Select
+WORK FLOW FOR PAYMENT PROCESSING
+WORK FLOW FOR INSTRUCTION PROCESSING
+CONFIRMATION INSTRUCTION PROCESSING
+CONFIRMATION TRANSACTION PROCESSING
+RFP INSTRUCTION PROCESSING
+RFP Transaction
+LoadMore
+Select
+Description*
+Process Status
+Select
+Incidence Resolution
+Severity*
+Select
+High
+Medium
+Low
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Incidence Origin
+Can Client Set Preference
+Operations Severity Preference
+Client Severity Preference
+Repair and Manual Input
+Add Incidence Definition Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

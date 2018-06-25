@@ -1,0 +1,41 @@
+Home
+Payment Module
+Admin Panel
+User Management
+Roles & Permissions
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Admin Panel User Management
+0
+admin
+User Management
+View Users, Edit User Details
+1 out of 1 records shown
+
+Add User
+Show Drafts
+admin
+First Name :
+admin
+Last Name :
+admin
+Role ID :
+Super Admin
+E-Mail :
+admin@gmail.com
+Time Zone :
+Africa/Accra
+Is Force Reset :
+false
+Effective From Date :
+2018-06-05
+Effective Till Date :
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

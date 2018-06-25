@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.035.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PrtryFrmtInvstgtn>
+		<Assgnmt>
+			<Id>Id</Id>
+			<Assgnr>
+				<Agt>
+					<FinInstnId>
+						<ClrSysMmbId>
+							<ClrSysId>
+								<Cd>ATBLZ</Cd>
+							</ClrSysId>
+							<MmbId>000000008</MmbId>
+						</ClrSysMmbId>
+					</FinInstnId>
+				</Agt>
+			</Assgnr>
+			<Assgne>
+				<Agt>
+					<FinInstnId>
+						<ClrSysMmbId>
+							<ClrSysId>
+								<Cd>ATBLZ</Cd>
+							</ClrSysId>
+							<MmbId>000000007</MmbId>
+						</ClrSysMmbId>
+
+					</FinInstnId>
+
+				</Agt>
+			</Assgne>
+			<CreDtTm>2017-07-11T12:07:22.836</CreDtTm>
+		</Assgnmt>
+		<Case>
+			<Id>Id</Id>
+			<Cretr>
+				<Pty>
+					<Nm>test</Nm>
+					<PstlAdr>
+						<AdrTp>DLVY</AdrTp>
+						<Dept>Dept</Dept>
+						<SubDept>SubDept</SubDept>
+						<BldgNb>BldgNb</BldgNb>
+						<PstCd>PstCd</PstCd>
+						<TwnNm>TwnNm</TwnNm>
+					</PstlAdr>
+					<CtctDtls>
+						<Nm>Nm</Nm>
+						<PhneNb>+4-7+)39)0+79</PhneNb>
+						<FaxNb>+613-((37833494541)32+573(55381469</FaxNb>
+					</CtctDtls>
+				</Pty>
+			</Cretr>
+		</Case>
+		<PrtryData>
+			<Tp>Tp</Tp>
+			<Data>
+				<OrigRefs>
+					<InstrId>MYREF123</InstrId>
+					<EndToEndId>ChannelEToEID002</EndToEndId>
+					<TxId>1234567891</TxId>
+				</OrigRefs>
+			</Data>
+		</PrtryData>
+	</PrtryFrmtInvstgtn>
+</Document>

@@ -1,0 +1,54 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Log Configuration
+0
+admin
+Log Configuration
+View Log Configuration, Edit Log Configuration Details
+20 out of 27 records shown
+Clear Cache
+
+Add Log Configuration
+org.springframework - VolPayChannel
+org.apache.activemq - VolPayChannel
+volante.runtime - VolPayChannel
+com.volante.component - VolPayChannel
+org.apache.camel - VolPayChannel
+com.volantetech.volante.services - VolPayChannel
+com.volantetech.volante.services.camel.routebuilders - VolPayChannel
+org.springframework - VolPayHub
+org.apache.activemq - VolPayHub
+volante.runtime - VolPayHub
+com.volante.component - VolPayHub
+org.apache.camel - VolPayHub
+com.volantetech.volante.services - VolPayHub
+com.volantetech.volante.services.camel.routebuilders - VolPayHub
+org.quartz - VolPayHub
+com.tplus.transform.runtime.rest - VolPayHub
+com.tplus.transform.util - VolPayHub
+volante.runtime - VolPayRest
+com.volante.component - VolPayRest
+org.apache.camel - VolPayRest
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

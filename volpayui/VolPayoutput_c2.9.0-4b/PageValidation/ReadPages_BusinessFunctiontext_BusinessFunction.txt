@@ -1,0 +1,54 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Business Function
+0
+admin
+Business Function
+View Business Function, Edit Business Function Details
+20 out of 54 records shown
+Clear Cache
+Function Code Task Code Activity Index Task Config Status Effective From Date Effective Till Date
+OFACCheck OFACCheck 10 2016-12-30
+DebitPartyDerivation DebitPartyDerivation 30 <TaskConfig><Configs><Name>HANDLEUNDERLYINGCUSTOMER</Name><Value>FALSE</Value></Configs><Configs><Name>VALIDATEDEBTORACCOUNT</Name><Value>TRUE</Value></Configs><Configs><Name>VALIDATEPARENTENTITY</Name><Value>TRUE</Value></Configs></TaskConfig> 2016-12-30
+CreditPartyDerivation CreditPartyDerivation 40 <TaskConfig><Configs><Name>ISBANKROUTINGLOOKUPREQ</Name><Value>FALSE</Value></Configs></TaskConfig> 2016-12-30
+ProductSelection ProductSelection 50 2016-12-30
+MOPDerivation MOPDerivation 60 2016-12-30
+ExecutePaymentDuplicateCheck ExecutePaymentDuplicateCheck 70 2016-12-30
+Warehouse Warehouse 80 2016-12-30
+Fx Fx 90 2016-12-30
+PrepareAccountingEntries PrepareAccountingEntries 100 2016-12-30
+FundsControl FundsControl 110 <TaskConfig><Configs><Name>REQUESTTYPE</Name><Value>1</Value></Configs></TaskConfig> 2016-12-30
+LiquidityControl LiquidityControl 120 <TaskConfig><Configs><Name>REQUESTTYPE</Name><Value>1</Value></Configs></TaskConfig> 2016-12-30
+AccountPosting AccountPosting 130 2016-12-30
+TransformAndTransmit TransformAndTransmit 103 <TaskConfig><Configs><Name>UPDATENEEDED</Name><Value>TRUE</Value></Configs><Configs><Name>UPDATEPFDOVERRIDEFLOW</Name><Value>UpdateTransformAndTransmit</Value></Configs></TaskConfig> 2016-12-30
+ValidateAndDebulkProcessor ValidateAndDebulkProcessor 20 2016-12-30
+CheckThresholds CheckThresholds 30 2016-12-30
+OSPProductEnrichmentForBook OSPProductEnrichmentForBook 44 2017-10-12
+ValidatePaymentCurrency ValidatePaymentCurrency 1 2018-02-01
+InstructionDuplicateCheck InstructionDuplicateCheck 10 2016-12-30
+ValidateAndDebulkResponses ValidateAndDebulkResponses 10 <TaskConfig><Configs><Name>TXNHANDLINGSTATUS</Name><Value>AMND,RJCT</Value></Configs><Configs><Name>PCDUPDATESTATUS</Name><Value>ACCP,DELV,PROC,CMPL,RETN,PEND,PACP,PCMP,RFSD</Value></Configs></TaskConfig> 2016-12-30
+DepartmentSelection DepartmentSelection 20 2017-01-01
+
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

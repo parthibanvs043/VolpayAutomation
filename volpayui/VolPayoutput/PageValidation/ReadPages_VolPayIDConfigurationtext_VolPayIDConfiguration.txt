@@ -1,0 +1,40 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data VolPay ID Configuration
+0
+admin
+VolPay ID Configuration
+View VolPay ID Configuration, Edit VolPay ID Configuration Details
+8 out of 8 records shown
+IDCode Pattern FixLen IsDefault
+VolPayDefault VPE${UIR}${i}${ID} 30 true
+INTERFACEDEFAULT VPEIF${ID} 30 true
+ServiceDefault ${sc}${yymmdd}${n} 30 true
+BookID VPE${ID} 12
+DemoISOPainDefault DEMOPAIN${ID} 35
+DemoISOPacsDefault DEMOPACS${ID} 35
+DemoSWIFTDefault DEMOSWIFT${ID} 16
+ServiceID VPE${ID} 10
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

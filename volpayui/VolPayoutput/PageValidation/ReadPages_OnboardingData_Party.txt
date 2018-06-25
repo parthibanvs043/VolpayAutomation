@@ -1,0 +1,239 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Party
+0
+admin
+Party
+View Party, Edit Party Details
+14 out of 14 records shown
+Clear Cache
+
+Add Party
+Spain default party - 7765569996
+Party Display Name :
+Spain Head
+Party Type :
+SELF
+Party External Identifier :
+IRVTESM1XXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+ESPCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+United kingdom main party - 7765569997
+Party Display Name :
+United Kingdom Head
+Party Type :
+SELF
+Party External Identifier :
+IRVTGB2XXXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+UKCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+United states party - 7765569998
+Party Display Name :
+United States Head
+Party Type :
+SELF
+Party External Identifier :
+IRVTUS3NXXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+USCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+United states party A - PARTYA
+Party Display Name :
+United states party A
+Party Type :
+CUSTOMER
+Party External Identifier :
+CITIUS33XXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+USCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+BNYM FFT - 9987765543
+Party Display Name :
+BNYM FRANKFURT
+Party Type :
+OWN_ENTITY
+Party External Identifier :
+IRVTDEFXXXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+DECAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+HSBC LDN - 9565549876
+Party Display Name :
+HSBC LONDON, UK
+Party Type :
+CUSTOMER
+Party External Identifier :
+HSBCGB2LXXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+GBCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+Kellogs, USA - 4382562348
+Party Display Name :
+Kellogs, USA
+Party Type :
+CUSTOMER
+Party External Identifier :
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+Cutoff Profile Code :
+Effective From Date :
+2016-01-01
+IBM INC, USA - UC43825623480001
+Party Display Name :
+IBM INC, USA
+Party Type :
+UNDERLINED_CUSTOMER
+Party External Identifier :
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+Cutoff Profile Code :
+Effective From Date :
+2016-01-01
+BENEFIT PAYMENTS OMNIBUS - 5371302532
+Party Display Name :
+BENEFIT PAYMENTS OMNIBUS, USA
+Party Type :
+CUSTOMER
+Party External Identifier :
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+Cutoff Profile Code :
+Effective From Date :
+2016-01-01
+CACEIS CT - 5413300012
+Party Display Name :
+CACEIS Corporate Trust, France
+Party Type :
+CUSTOMER
+Party External Identifier :
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+Cutoff Profile Code :
+Effective From Date :
+2016-01-01
+CROWN AGENTS BANK LTD, UK - 5260330022
+Party Display Name :
+CROWN AGENTS BANK LTD, UK
+Party Type :
+CUSTOMER
+Party External Identifier :
+CRASGB2LXXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+Cutoff Profile Code :
+Effective From Date :
+2016-01-01
+Westpac AU - 9000001234
+Party Display Name :
+Westpac, Australia
+Party Type :
+CORRESPONDENT
+Party External Identifier :
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+AUCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+DEMO ISO PACS008 CH - 9000001235
+Party Display Name :
+DEMO ISO PACS008 Clearing
+Party Type :
+CLEARING_HOUSE
+Party External Identifier :
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+USCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+United states party A - UPARTYA
+Party Display Name :
+United states party A
+Party Type :
+UNDERLINED_CUSTOMER
+Party External Identifier :
+CITIUS34XXX
+Default Charges Account Number :
+Default Charges Account Currency :
+Processing Restrictions :
+Calendar Code :
+USCAL
+Cutoff Profile Code :
+FivePM
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,95 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data Currency
+0
+admin
+Currency
+View Currency, Edit Currency Details
+20 out of 331 records shown
+Clear Cache
+
+Add Currency
+EUR
+Effective From Date :
+2016-01-01
+EURO - EUR
+Effective From Date :
+2016-01-01
+AUD - AUD
+Effective From Date :
+2016-01-01
+NZD - NZD
+Effective From Date :
+2016-01-01
+UAE DIRHAM - AED
+Effective From Date :
+2016-01-01
+AFGHANI - AFN
+Effective From Date :
+2016-01-01
+LEK - ALL
+Effective From Date :
+2016-01-01
+ARMENIAN DRAM - AMD
+Effective From Date :
+2016-01-01
+NETHERLANDS ANTILLIAN GUILDER - ANG
+Effective From Date :
+2016-01-01
+NETHERLANDS ANTILLIAN GUILDER - ANG
+Effective From Date :
+2016-01-01
+KWANZA - AOA
+Effective From Date :
+2016-01-01
+ARGENTINE PESO - ARS
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+AUSTRALIAN DOLLAR - AUD
+Effective From Date :
+2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

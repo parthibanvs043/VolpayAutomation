@@ -1,0 +1,39 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Bank Routing
+0
+admin
+Bank Routing
+View Bank Routing, Edit Bank Routing Details
+2 out of 2 records shown
+Clear Cache
+
+Add Bank Routing
+9000001235 - 101
+Effective From Date :
+2017-11-28
+7765569996 - 422
+Effective From Date :
+2018-06-06
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

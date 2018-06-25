@@ -1,0 +1,39 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Method of Payment
+0
+admin
+Method of Payment
+View Method of Payment, Edit Method of Payment Details
+5 out of 5 records shown
+Clear Cache
+
+Method Of Payment Code Basic Details Calendar Dates and COT Validation Bulking Params Alternate IDs Response Status Details
+MOP Category MOP Technical Name Output Format Product Code Clearing Scheme Code Cash Clearing Scheme Code Country Code Currency Code (List) Settlement Account Nos Supported Charge Codes MOP Description Calendar Code MOP Business Date Minimum Processing Days Earliest Value Date Latest Value Date Value Date Extension CutOff Code Roll Forward Value Date MOP Time Extension Validate Membership Minimum Amount Maximum Amount Bulk Payment Holiday Bulk Profile Weekday Bulk Profile Weekend Bulk Profile File ID Configuration Code Payment ID Configuration Code Expect Response MOP External Identifier Process Code Response Format Identifier Flow Status Effective From Date Effective Till Date
+SWIFT NETWORK SWIFT SWIFT ACH USABA US USD 6541237890 SHAR SWIFT Mop USCAL 2016-01-01 2 2 180 2 FivePM true 15 false 1 100000 false DemoSWIFTDefault DemoSWIFTDefault false 2016-01-01
+DEMO_ISOPACS008_NB CLEARING DEMO_ISO_PACS_008 DEMO_ISOPACS008Clearing ACH USABA US GBP,CAD 1234567890 SHAR DEMO_ISOPAIN001 Non Bulk Mop USCAL 2016-01-01 4 4 240 4 FivePM true 15 false 1 200000 false DemoISOPacsDefault DemoISOPacsDefault true VOLPAY-DEFAULT ISO_PAIN_001_ResponseFormatIdentifier 2016-01-01
+DEMO_ISOPACS008 CLEARING DEMO_ISO_PACS_008 DEMO_ISOPACS008Clearing ACH USABA US GBP,CAD 1234567890 SHAR DEMO_ISOPAIN001 Mop USCAL 2016-01-01 4 4 180 4 FivePM true 15 false 1 100000 false GENERICBULKPROFILE GENERICBULKPROFILE GENERICBULKPROFILE DemoISOPacsDefault DemoISOPacsDefault true VOLPAY-DEFAULT ISO_PAIN_001_ResponseFormatIdentifier 2016-01-01
+BOOK_INTERNAL INTERNAL BOOK_INTERNAL BOOK_INTERNAL USABA GB CAD USCAL 2016-01-01 1 1 180 1 FivePM true 15 false 1 100000 false BookID BookID false 2016-01-01
+BOOK_INCOMING INTERNAL BOOK_INCOMING BOOK_INCOMING USABA GB CAD,USD UKCAL 2016-01-01 1 1 180 1 FivePM true 15 false 1 100000 false BookID BookID false 2016-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

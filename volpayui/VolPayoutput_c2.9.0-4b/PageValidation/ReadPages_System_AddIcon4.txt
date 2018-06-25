@@ -1,0 +1,41 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data VolPay ID Configuration Add New
+0
+admin
+Add New VolPay ID Configuration
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+ID Code *
+Pattern *
+Minimum Length
+Maximum Length
+Fix Length
+Flow Name
+Is Default
+--Select--
+true
+false
+Add VolPay ID Configuration Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

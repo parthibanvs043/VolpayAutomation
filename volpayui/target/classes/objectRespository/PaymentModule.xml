@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PaymentModule>
+       <BankDataModule>Payment Module</BankDataModule>
+       <Submit>button[tooltip='Submit']</Submit>
+	   <statusBox>statusBox</statusBox>
+	   <ChangesModule>.//*[@id='changesLostModal']/div/div</ChangesModule>
+<GridView>
+        <View>btn_2</View>      
+       <AddNewButton>button[tooltip='Add New']</AddNewButton>
+</GridView>
+<TextValues>
+        <AddNewCalendar>//h2[@class='ng-binding']</AddNewCalendar>    
+</TextValues>
+<Links>
+        <InitiateTransactionLink>Initiate Transaction</InitiateTransactionLink>
+         <BankDataModule>Bank Data</BankDataModule>
+         <MPITemplateLink>MPI Template</MPITemplateLink>
+        
+</Links>
+<InitiateTransaction>
+		<PartyCode>(.//*[@id='select2-PartyCode-container'])[2]</PartyCode>
+		<Service>span[title='Payment service']</Service>
+		<MessageType>MessageType</MessageType>
+		<PSACode>psaCode</PSACode>
+		<Branch>Branch</Branch>
+		<ProductsSupported>productsupported</ProductsSupported>
+		<ValueDate>input[name='ValueDate']</ValueDate>
+		<DebtorCustomerProprietaryCode>AccountDomiciledCountry</DebtorCustomerProprietaryCode>
+		<PaymentCurrency>PaymentCurrency</PaymentCurrency>
+		<Amount>input[name='Amount']</Amount>
+		<EndToEndID>input[name='EndToEndId']</EndToEndID>
+		<ChargeCode>ChargeCode</ChargeCode>
+		<OCClientID>ClientID</OCClientID>
+		<OCName>//input[@name='ClientName']</OCName>
+		<OCAddressLine1>input[name='ClientAddressLine1']</OCAddressLine1>
+		<OCAddressLine2>input[name='ClientAddressLine2']</OCAddressLine2>
+		<OCCity>input[name='ClientCountryCity']</OCCity>
+		<OCState>input[name='ClientCountryState']</OCState>
+		<OCPostCode>input[name='ClientCountryPostCode']</OCPostCode>
+		<OCCountry>input[name='ClientCountryCode']</OCCountry>
+		<OCAccountNumber>OrderingCustomer_AccountNumber</OCAccountNumber>
+		<OCAccountCurrency>AccountCurrency</OCAccountCurrency>
+		<OCAccountName>//input[@name='AccountName']</OCAccountName>
+		<OCAccountDomiciledCountry>AccountDomiciledCountry</OCAccountDomiciledCountry>	
+		<BankIdentifierType>BankIdentifierType1</BankIdentifierType>
+		<BankIdentifierCode>BIC1</BankIdentifierCode>
+		<BBAddressLine1>input[ng-model='BeneficiaryBank.BankAddressLine1']</BBAddressLine1>
+		<BBAddressLine2>input[ng-model='BeneficiaryBank.BankAddressLine2']</BBAddressLine2>
+		<BBCity>input[ng-model='BeneficiaryBank.City']</BBCity>
+		<BBState>input[ng-model='BeneficiaryBank.State']</BBState>
+		<BBPostCode>input[ng-model='BeneficiaryBank.PostCode']</BBPostCode>
+		<BBCountry>input[ng-model='BeneficiaryBank.Country']</BBCountry>
+		<BDAccountNo>AccountNumber1</BDAccountNo>	
+		<BDName>BeneficiaryName</BDName>
+		<BeneficiaryAddressLine1>input[ng-model='Beneficiary.BankAddressLine1']</BeneficiaryAddressLine1>
+		<BeneficiaryAddressLine2>input[ng-model='Beneficiary.BankAddressLine2']</BeneficiaryAddressLine2>
+		<BDCity>input[ng-model='Beneficiary.City']</BDCity>
+		<BDState>input[ng-model='Beneficiary.State']</BDState>
+		<BDPostCode>input[ng-model='Beneficiary.PostCode']</BDPostCode>
+		<BDCountry>input[ng-model='Beneficiary.Country']</BDCountry>
+		<RemittanceID>input[ng-model='RemittanceInformation.RemittanceID']</RemittanceID>
+		<RemittanceInformation>textarea[ng-model='RemittanceInformation.RemittanceInformation']</RemittanceInformation>
+		<IntermediaryDetailsBankIdentifierType>BankIdentifierType2</IntermediaryDetailsBankIdentifierType>
+		<IntermediaryDetailsBankIdentifierCode>BIC</IntermediaryDetailsBankIdentifierCode>
+		<InterBankAddressLine1>input[ng-model='IntermediaryBankDetails.BankAddressLine1']</InterBankAddressLine1>
+		<InterBankAddressLine2>input[ng-model='IntermediaryBankDetails.BankAddressLine2']</InterBankAddressLine2>
+		<InterBankCity>input[ng-model='IntermediaryBankDetails.City']</InterBankCity>
+		<InterBankState>input[ng-model='IntermediaryBankDetails.State']</InterBankState>
+		<InterPostCode>input[ng-model='IntermediaryBankDetails.PostCode']</InterPostCode>
+		<InterBankCountry>input[ng-model='IntermediaryBankDetails.Country']</InterBankCountry>
+		<IntermediaryBankDetailsButton>input[value='Add Intermediary BankDetails']</IntermediaryBankDetailsButton>
+		<SaveAsTemplateButton>input[value='Save as Template and Submit']</SaveAsTemplateButton>
+		<TemplateName>input[placeholder='Please Enter Template Name']</TemplateName>
+		<RolesAccessible>//ul[li[input[@role='textbox']]]</RolesAccessible>
+		<Status>select[ng-model='TemplateDetails.Status']</Status>
+		<EffectiveFromDate>input[ng-model='TemplateDetails.EffectiveFromDate']</EffectiveFromDate>
+		<EffectiveTillDate>EffectiveTillDate</EffectiveTillDate>
+		<Description>textarea[ng-model='TemplateDetails.Description']</Description>
+		<SubmitButton>input[value='Submit']</SubmitButton>SubmitButton>		
+		<SuccessMsg>//div[@ng-repeat="alert in alerts"]</SuccessMsg>
+		<RefreshButton>//button[1]/span[contains(text(),'Refresh')]</RefreshButton>
+		
+</InitiateTransaction>
+</PaymentModule>

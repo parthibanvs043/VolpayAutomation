@@ -1,0 +1,213 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Route Registry
+Service Registry
+System Diagnosis
+Scheduled Route Log Audit
+Security
+Reports
+System Monitoring Route Registry
+0
+admin
+Route Registry
+View Route Registry Details
+20 out of 192 records shown
+Application Name*
+Select
+Select
+Host Address*
+Select
+Select
+Route Id*
+Reload Cancel
+Processor Instance ID Route ID Route Info Date Added Status Last Updated Reload
+VOLPAYCHANNEL 10.0.3.78:8443 PAYMENTSTATUSToINSTRUCTIONSTATUS
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="PAYMENTSTATUSToINSTRUCTIONSTATUS">
+  <from uri="jms://queue:PAYMENTSTATUS?concurrentConsumers=4&amp;maxConcurrentConsumers=32&amp;maxMessagesPerTask=20&amp;transacted=true"/>
+  <to uri="volante:PaymentStatusToInstructionStatusFlow"/>
+ </route>
+</routes>
+05-06-2018 | 05:06:58:300 06-06-2018 | 05:50:00:302
+VOLPAYCHANNEL 10.0.3.78:8443 ChannelAllInstanceStartOfDayProcess
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ChannelAllInstanceStartOfDayProcess">
+  <from uri="quartz2://reloadChannelTable?cron=0+0+00+*+*+%3F&amp;trigger.timeZone=UTC"/>
+  <to uri="volante:ChannelAllInstanceStartOfDayProcess"/>
+ </route>
+</routes>
+05-06-2018 | 05:06:58:302 06-06-2018 | 05:50:00:303
+VOLPAYCHANNEL 10.0.3.78:8443 VolPayChannelRouteRegistryManager
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="VolPayChannelRouteRegistryManager">
+  <from uri="quartz2://routeHealthCheck?cron=0+0%2F05+*+1%2F1+*+%3F&amp;trigger.timeZone=UTC"/>
+  <to uri=""/>
+ </route>
+</routes>
+05-06-2018 | 05:06:58:304 06-06-2018 | 05:50:00:304
+VOLPAYHUB 10.0.3.78:8443 PAYMENT_SWIFT_TC
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="PAYMENT_SWIFT_TC">
+  <from uri="volante:DemoBankOutputToDevice"/>
+  <to uri="../VPH_messages/Outputs/SWIFT"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:304 06-06-2018 | 05:50:00:305 Reload
+VOLPAYHUB 10.0.3.78:8443 PAYMENT_DEMO_ISOPACS008_NB_TC
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="PAYMENT_DEMO_ISOPACS008_NB_TC">
+  <from uri="volante:DemoBankOutputToDevice"/>
+  <to uri="../VPH_messages/Outputs/DEMO_ISOPACS008_NB"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:306 06-06-2018 | 05:50:00:306 Reload
+VOLPAYHUB 10.0.3.78:8443 PAYMENT_DEMO_ISOPACS008_TC
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="PAYMENT_DEMO_ISOPACS008_TC">
+  <from uri="volante:DemoBankOutputToDevice"/>
+  <to uri="../VPH_messages/Outputs/DEMO_ISOPACS008"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:307 06-06-2018 | 05:50:00:308 Reload
+VOLPAYHUB 10.0.3.78:8443 ASYNC_REQUEST_ACCOUNTPOSTINGINTERFACE_REQ
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ASYNC_REQUEST_ACCOUNTPOSTINGINTERFACE_REQ">
+  <from uri="volante:AsyncRequestTransportFlow"/>
+  <to uri="queue:ASYNCACCTPOSTINGINTERFACEREQ"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:308 06-06-2018 | 05:50:00:309 Reload
+VOLPAYHUB 10.0.3.78:8443 ASYNC_REQUEST_FUNDSCONTROLINTERFACE_REQ
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ASYNC_REQUEST_FUNDSCONTROLINTERFACE_REQ">
+  <from uri="volante:AsyncRequestTransportFlow"/>
+  <to uri="queue:ASYNCFUNDSCTRLINTERFACEREQ"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:310 06-06-2018 | 05:50:00:311 Reload
+VOLPAYHUB 10.0.3.78:8443 ASYNC_REQUEST_OFACINTERFACE_REQ
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ASYNC_REQUEST_OFACINTERFACE_REQ">
+  <from uri="volante:AsyncRequestTransportFlow"/>
+  <to uri="OFACExternalSystem"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:311 06-06-2018 | 05:50:00:312 Reload
+VOLPAYHUB 10.0.3.78:8443 ASYNC_REQUEST_LIQUIDITYCONTROLINTERFACE_REQ
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ASYNC_REQUEST_LIQUIDITYCONTROLINTERFACE_REQ">
+  <from uri="volante:AsyncRequestTransportFlow"/>
+  <to uri="queue:ASYNCLIQUIDITYCTRLINTERFACEREQ"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:312 06-06-2018 | 05:50:00:314 Reload
+VOLPAYHUB 10.0.3.78:8443 ASYNC_RESPONSE_OFACINTERFACE_RES
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ASYNC_RESPONSE_OFACINTERFACE_RES">
+  <from uri="jms:queue:ASYNCOFACINTERFACERESPONSE?concurrentConsumers=1&amp;maxConcurrentConsumers=8&amp;maxMessagesPerTask=10&amp;transacted=true"/>
+  <to uri="volante:AsyncResponseTransportFlow"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:10:315 06-06-2018 | 05:50:00:315 Reload
+VOLPAYREST 10.0.3.78:8443 Mail
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="Mail">
+  <from uri="direct-vm://Volpay.EMAIL"/>
+  <to uri="{{QUEUE_PREFIX}}:{{MAIL_QUEUE}}"/>
+ </route>
+</routes>
+05-06-2018 | 05:07:59:316 06-06-2018 | 05:50:00:316
+VOLPAYREST 10.0.3.78:8443 Notigate
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="Notigate">
+  <from uri="direct-vm://NOTIGATEQUEUEIN"/>
+  <to uri="{{QUEUE_PREFIX}}:{{NOTIGATE}}"/>
+ </route>
+</routes>
+05-06-2018 | 05:07:59:317 06-06-2018 | 05:50:00:317
+VOLPAYREST 10.0.3.78:8443 route1
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="route1">
+  <from uri="seda://MAIL_PORT_QUEUE"/>
+  <to uri=""/>
+ </route>
+</routes>
+05-06-2018 | 05:07:59:317 06-06-2018 | 05:50:00:317
+VOLPAYREST 10.0.3.78:8443 LogReload
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="LogReload">
+  <from uri="timer://StartPro?fixedRate=true&amp;repeatCount=1"/>
+  <to uri="volante:RestReloadLoggingServiceFlow"/>
+ </route>
+</routes>
+05-06-2018 | 05:07:59:317 06-06-2018 | 05:50:00:318
+VOLPAYREST 10.0.3.78:8443 ReloadCache
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="ReloadCache">
+  <from uri="jms://topic:VPE.CACHERELOAD?concurrentConsumers=1"/>
+  <to uri="volante:RefreshCacheData"/>
+ </route>
+</routes>
+05-06-2018 | 05:07:59:319 06-06-2018 | 05:50:00:319
+VOLPAYCHANNEL 10.0.3.78:8443 FILE_DEMOPSA3_ISOPACS008Clearing
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="FILE_DEMOPSA3_ISOPACS008Clearing">
+  <from uri="file:../VPH_messages/Inputs/DEMO_ISOPACS008Clearing?readLock=changed&amp;readLockCheckInterval=2000"/>
+  <to uri="volante:VolPayFileProcessor"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:09:319 06-06-2018 | 05:50:00:319 Reload
+VOLPAYCHANNEL 10.0.3.78:8443 MQ_DEMOPSA3_ISOPACS008Clearing
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="MQ_DEMOPSA3_ISOPACS008Clearing">
+  <from uri="jms:queue:DEMO_ISOPACS008Clearing?concurrentConsumers=1&amp;maxConcurrentConsumers=8&amp;maxMessagesPerTask=10&amp;transacted=true"/>
+  <to uri="volante:VolPayFileProcessor"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:09:320 06-06-2018 | 05:50:00:320 Reload
+VOLPAYCHANNEL 10.0.3.78:8443 DIRECTVM_DEMOPSA3_ISOPACS008Clearing
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="DIRECTVM_DEMOPSA3_ISOPACS008Clearing">
+  <from uri="direct-vm:DEMO_ISOPACS008ClearingDirectVM"/>
+  <to uri="volante:VolPayFileProcessor"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:09:321 06-06-2018 | 05:50:00:321 Reload
+VOLPAYCHANNEL 10.0.3.78:8443 FILE_DEMOPSA1_ISOPACS008Channel
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://camel.apache.org/schema/spring" xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <route id="FILE_DEMOPSA1_ISOPACS008Channel">
+  <from uri="file:../VPH_messages/Inputs/DEMO_ISOPACS008Channel?readLock=changed&amp;readLockCheckInterval=2000"/>
+  <to uri="volante:VolPayFileProcessor"/>
+ </route>
+</routes>
+06-06-2018 | 00:00:09:322 06-06-2018 | 05:50:00:322 Reload
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

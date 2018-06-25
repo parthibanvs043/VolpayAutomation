@@ -1,0 +1,75 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data MPI Template Add New
+0
+admin
+
+Add New
+MPI Templates
+- All fields marked with an asterisk ( *  ) are mandatory.
+Templates
+--Select--
+--Select--
+Payment Details
+    Party *
+--Select--
+--Select--
+Service *
+--Select--
+Messages Type *
+--Select--
+Party Service Association Code *
+--Select--
+Branch *
+--Select--
+Products Supported *
+--Select--
+Value Date *
+Debtor Customer Proprietary Code
+--Select--
+Payment Currency *
+--Select--
+Amount *
+End To End ID *
+Charge Code
+--Select--
+Ordering Customer
+    Beneficiary Bank Details
+    Beneficiary Details
+    Remittance Information
+    Intermediary Bank Details
+    Template Details
+    Template Name *
+Roles Accessible
+Status *
+--Select Status--
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date *
+Effective Till Date
+Description
+3000 Characters Left
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

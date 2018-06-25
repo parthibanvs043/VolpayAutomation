@@ -1,0 +1,82 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Calendar
+Country
+Region
+Currency
+Office
+Branch
+Department
+Membership
+Business Rules
+FX Rates
+MPI Template
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Bank Data Business Rules Add New
+0
+admin
+Onboarding New Business Rules
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Office Code*
+Select
+LoadMore
+Select
+Rule Code*
+Rule Name*
+Process Code*
+Select
+DEFAULT CONFIGURATION
+CAMT configuration
+Remit configuration
+Incoming RFI configuration
+Incoming RRFI configuration
+Incoming ROF configuration
+ROF configuration
+Incoming RROF configuration
+Incoming RFP configuration
+Incoming RRFP configuration
+Outgoing RFI configuration
+Outgoing RRFI configuration
+Outgoing ROF configuration
+Outgoing RROF configuration
+Outgoing RFP configuration
+Outgoing RRFP configuration
+LoadMore
+Select
+Work Flow Code*
+Select
+Rule*
+Rule Creation Date*
+Rule Phase*
+Select
+Description
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Add Business Rules Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

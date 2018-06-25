@@ -1,0 +1,77 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Transport Add New
+0
+admin
+Onboarding New Transport
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Transport Code*
+Direction*
+Select
+INPUT
+OUTPUT
+ACK
+RESPONSE
+ASYNC-OUT
+ASYNC-IN
+Reference Code*
+Select
+Transport Type*
+Select
+Transport Mode*
+Select
+Connection String*
+Encryption*
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Condition
+Predicate*
+Value*
+Help
+Set Headers
+Header Name*
+Value*
+Help
+Remove Headers
+Pattern*
+Help
+Property
+Name*
+Value*
+Help
+Add Transport Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,49 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Service Group
+Service
+Product
+Party
+Account
+Transport
+Party Service Association
+Distribution Data
+System Data
+System Monitoring
+Security
+Reports
+Onboarding Data Service
+0
+admin
+Service
+View Service, Edit Service Details
+6 out of 6 records shown
+Clear Cache
+
+Add Service
+Payment service - PAYMENT
+Effective From Date :
+2016-01-01
+Payroll service - PAYROLL
+Effective From Date :
+2016-01-01
+SWIFT service for USD Payments - SWIFT_USD
+Effective From Date :
+2016-01-01
+SWIFT service for all payments - SWIFT_XXX
+Effective From Date :
+2016-01-01
+DBS Service Code - CA
+Effective From Date :
+2018-06-06
+HSBC Service Code - IN
+Effective From Date :
+2018-06-06
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

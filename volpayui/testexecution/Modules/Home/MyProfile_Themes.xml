@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyProfile_Themes" verbose="1">
+<test name="Admin">  
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Modules/Home/MyProfile/MyProfile_Themes.xls" />
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Modules/Home/MyProfile/MyProfile_Themes.html" />
+      <classes>
+      <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+</test>
+</suite>

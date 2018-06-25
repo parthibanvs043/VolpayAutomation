@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BankData" verbose="1">
+<!-- Branch -->
+<test name="Branch">
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Branch.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Branch.html" />     
+   <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+  </test>
+<!-- Business Rules-->  
+<test name="Business Rules"> 
+   <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_BusinessRules.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_BusinessRules.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+ 
+ <!-- Calendar-->  
+ <test name="Calendar"> 
+    <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Calendar.xls"/>
+    <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Calendar.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+  <!-- Country -->  
+ <test name="Country"> 
+     <parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Country.xls"/>
+    <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Country.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+ <!--  Currency  -->  
+ <test name="Currency"> 
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Currency.xls"/>
+	<parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Currency.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+ <!--   Department  -->  
+ <test name="Department"> 
+	<parameter name="driverPath" value="E:/VolPaySuite/VolPaySuite/VolPayUIAutomation/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Department.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Department.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+  <!-- Office-->  
+ <test name="Office"> 
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Office.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Office.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+   <!-- FxRates-->  
+ <test name="FxRates"> 
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_FXRates.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_FXRates.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+   <!-- Membership--> 
+ <test name="Membership"> 
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Membership.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Membership.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>
+   <!-- Region--> 
+ <test name="Region"> 
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/Entitlement/BankData/Entitlement_Region.xls"/>
+   <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/Entitlement/BankData/Entitlement_Region.html" />
+  <classes>
+       <class name="com.volante.volpayui.VolPayDriver"/>
+   </classes>
+ </test>  
+</suite> 
+
+

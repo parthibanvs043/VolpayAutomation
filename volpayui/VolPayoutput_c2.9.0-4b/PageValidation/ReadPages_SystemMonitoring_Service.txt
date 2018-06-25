@@ -1,0 +1,204 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+System Monitoring
+Route Registry
+Service Registry
+System Diagnosis
+Scheduled Route Log Audit
+Security
+Reports
+System Monitoring Service Registry
+0
+admin
+Service Registry
+View Service Registry Details
+20 out of 38 records shown
+RECEIVEINSTRUCTION
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayChannel
+End Point :
+/rest/v2/file
+Expiry Time :
+2018-06-06T05:55:00
+EXTERNALCOMMUNICATION
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayChannel
+End Point :
+/rest/v2/transport/resend/external
+Expiry Time :
+2018-06-06T05:55:00
+CreateAndUpdatePCD
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/payments
+Expiry Time :
+2018-06-06T05:55:00
+MatchPCDAndCreateAttachedMsg
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/attachpayments
+Expiry Time :
+2018-06-06T05:55:00
+ConfirmationInstructionHandler
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/payments/response
+Expiry Time :
+2018-06-06T05:55:00
+InterfaceResendRequest
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/interface/request/resend
+Expiry Time :
+2018-06-06T05:55:00
+RISKFILTER-REJECT
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/payments/riskcheck/rejected
+Expiry Time :
+2018-06-06T05:55:00
+RISKFILTER-ACCEPT
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/payments/riskcheck/accept
+Expiry Time :
+2018-06-06T05:55:00
+OverrideResponse
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/interface/response
+Expiry Time :
+2018-06-06T05:55:00
+ProcessOverridedResponse
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/interface/override
+Expiry Time :
+2018-06-06T05:55:00
+BulkOverrideResponse
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/interface/bulkresponse
+Expiry Time :
+2018-06-06T05:55:00
+BulkProcessOverridedResponse
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/interface/bulkoverride
+Expiry Time :
+2018-06-06T05:55:00
+DISTRIBUTEDINSTRUCTION
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/transport/resend/distributed
+Expiry Time :
+2018-06-06T05:55:00
+InitiateBulkingWithPmntIDs
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHub
+End Point :
+/rest/v2/bulk/initiate/paymentids
+Expiry Time :
+2018-06-06T05:55:00
+GetFxEngine
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHubBankSimulator
+End Point :
+/rest/v2/fx
+Expiry Time :
+2018-06-06T05:55:00
+FUNDSCONTROL
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHubBankSimulator
+End Point :
+/rest/v2/fundscontrol
+Expiry Time :
+2018-06-06T05:55:00
+LIQUIDITYCONTROL
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHubBankSimulator
+End Point :
+/rest/v2/liquiditycontrol
+Expiry Time :
+2018-06-06T05:55:00
+ACCOUNTPOSTING
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHubBankSimulator
+End Point :
+/rest/v2/accountposting
+Expiry Time :
+2018-06-06T05:55:00
+OFAC
+Type :
+REST
+Host :
+https://10.0.3.78:8443/VolPayHubBankSimulator
+End Point :
+/rest/v2/ofac
+Expiry Time :
+2018-06-06T05:55:00
+RECEIVEINSTRUCTION
+Type :
+REST
+Host :
+https://10.0.3.79:8443/VolPayChannel
+End Point :
+/rest/v2/file
+Expiry Time :
+2018-06-07T10:45:00
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,51 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Currency Correspondent
+0
+admin
+Currency Correspondent
+View Currency Correspondent, Edit Currency Correspondent Details
+6 out of 6 records shown
+Clear Cache
+
+Add Currency Correspondent
+7765569997 - GBP
+Effective From Date :
+2016-01-01
+7765569996 - JMD
+Effective From Date :
+2016-01-01
+7765569997 - EUR
+Effective From Date :
+2016-01-01
+7765569998 - USD
+Effective From Date :
+2016-01-01
+7765569996 - ZAR
+Effective From Date :
+2016-01-01
+7765569996 - AUD
+Effective From Date :
+2018-06-06
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

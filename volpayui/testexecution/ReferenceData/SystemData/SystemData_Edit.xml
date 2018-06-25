@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BankData">
+<!--InternetExplorer,Firefox-->
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="BankData">
+    <parameter name="Report" value="E:/SeleniumNewSuite/volpayui/VolPayoutput/reports/ReferenceData/SystemData_Edit.html" />
+	<parameter name="driverPath" value="E:/SeleniumNewSuite/volpayui/VolPaydata/ReferenceData/SystemData/SystemData_Edit.xls" />
+    <classes>
+     <class name="com.volante.volpayui.VolPayDriver"/>
+    </classes>
+  </test>
+</suite>

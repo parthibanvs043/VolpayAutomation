@@ -1,0 +1,94 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+System Data
+Application Config
+Business Function
+Business Process
+VolPay ID Configuration
+Action Definition
+Status Definition
+Incidence Definition
+Status Action
+Log Configuration
+Approval Condition
+System Monitoring
+Security
+Reports
+System Data Status Definition
+0
+admin
+Status Definition
+View Status Definition, Edit Status Definition Details
+20 out of 113 records shown
+Clear Cache
+
+Add Status Definition
+PAYMENT - WAITATCHECKPOINT
+Effective From Date :
+2017-01-01
+INSTRUCTION - PARTIALLYDEBULKED
+Effective From Date :
+2017-01-01
+PAYMENT - REPAIRAPPROVED
+Effective From Date :
+2017-01-01
+PAYMENT - RISK_FILTER_HOLD
+Effective From Date :
+2017-01-01
+INSTRUCTION - PROCESSED
+Effective From Date :
+2017-01-01
+INSTRUCTION - HOLD
+Effective From Date :
+2017-01-01
+INSTRUCTION - COMPLETED
+Effective From Date :
+2017-01-01
+INSTRUCTION - REJECTED
+Effective From Date :
+2017-01-01
+INSTRUCTION - IN_PROGRESS
+Effective From Date :
+2017-01-01
+PAYMENT - INVESTIGATION
+Effective From Date :
+2017-01-01
+INSTRUCTION - DEBULKED
+Effective From Date :
+2017-01-01
+PAYMENT - WAITING
+Effective From Date :
+2017-01-01
+PAYMENT - BULKING_INPROGRESS
+Effective From Date :
+2017-01-01
+PAYMENT - REPAIRED
+Effective From Date :
+2017-01-01
+INSTRUCTION - DUPLICATE
+Effective From Date :
+2017-01-01
+PAYMENT - TOBEPROCESSED
+Effective From Date :
+2017-01-01
+PAYMENT - WAITFORAPPROVAL
+Effective From Date :
+2017-01-01
+INSTRUCTION - REPAIR
+Effective From Date :
+2017-01-01
+PAYMENT - FOR_BULKING
+Effective From Date :
+2017-01-01
+INSTRUCTION - DEBULKING
+Effective From Date :
+2017-01-01
+
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

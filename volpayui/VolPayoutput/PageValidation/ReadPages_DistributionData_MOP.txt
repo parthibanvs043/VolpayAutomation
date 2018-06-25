@@ -1,0 +1,59 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Method of Payment
+0
+admin
+Method of Payment
+View Method of Payment, Edit Method of Payment Details
+5 out of 5 records shown
+Clear Cache
+
+
+Add Method Of Payment
+Show Drafts
+NETWORK - SWIFT
+MOP Technical Name :
+SWIFT
+Effective From Date :
+2016-01-01
+CLEARING - DEMO_ISOPACS008_NB
+MOP Technical Name :
+DEMO_ISO_PACS_008
+Effective From Date :
+2016-01-01
+CLEARING - DEMO_ISOPACS008
+MOP Technical Name :
+DEMO_ISO_PACS_008
+Effective From Date :
+2016-01-01
+INTERNAL - BOOK_INTERNAL
+MOP Technical Name :
+BOOK_INTERNAL
+Effective From Date :
+2016-01-01
+INTERNAL - BOOK_INCOMING
+MOP Technical Name :
+BOOK_INCOMING
+Effective From Date :
+2016-01-01
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

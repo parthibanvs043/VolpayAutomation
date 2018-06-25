@@ -1,0 +1,79 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Industry Data-SWIFT Add New
+0
+admin
+Onboarding New Industry Data-SWIFT
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Modification Flag*
+Record Key*
+Office Type*
+Parent Office Key*
+Head Office Key*
+Legal Type*
+Legal Parent Key*
+Group Type
+Group Parent Key
+Institution Status
+Cooperative Group Key
+ISO LEI Code
+BIC8
+Branch BIC
+BIC
+CHIPS UID
+National ID
+Connected BIC
+Institution Name*
+Branch Information
+POB Number
+Street Address 1
+Street Address 2
+Street Address 3
+Street Address 4
+City
+CPS
+ZIP Code
+Country Name*
+ISO Country Code*
+Timezone
+Subtype Indicator
+Network Connectivity
+Branch Qualifiers
+Service Codes
+SSI Group Key
+IBAN Key
+Field A
+Field B
+Add Industry Data-SWIFT Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc

@@ -1,0 +1,58 @@
+Home
+Payment Module
+Admin Panel
+Bank Data
+Onboarding Data
+Distribution Data
+Bank Routing
+Country Correspondent
+Currency Correspondent
+Industry Data-SWIFT
+Method of Payment
+MOP Priority
+CutOff
+Bulk Profile
+Bulk Profile Override
+System Data
+System Monitoring
+Security
+Reports
+Distribution Data Bulk Profile Add New
+0
+admin
+Onboarding New Bulk Profile
+- All fields marked with an asterisk ( *  ) are mandatory.
+
+
+
+
+
+
+
+
+
+
+
+Bulk Profile Code*
+Max Payments Per Bulk Message*
+Bulk Frequency
+Bulking Start Time
+Bulking End Time
+Bulk Trigger Count
+Perform Bulking at Mop CutOff Time*
+Yes
+No
+Status*
+Select
+ACTIVE
+SUSPENDED
+INACTIVE
+Effective From Date*
+Effective Till Date
+Fixed Bulk Times
+Fixed Bulk Time*
+Add Bulk Profile Cancel
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
+Version: c2.9.1
+2018 © VolPay, Volante Technologies, Inc
